@@ -74,6 +74,7 @@ section.alimentacao p span {
     font-weight: bold;
 }
 
+
 /*PDF*/
 section#d {
     margin: 4vw;
@@ -100,15 +101,12 @@ section.w {
     border-top-right-radius: 25px;
     margin-top: 2rem;
 }
-
-section.w div#b p strong {
+section.w div#b p strong{
     font-weight: bold;
 }
-
-section.w div#b nav a {
+section.w div#b nav a{
     color: black;
 }
-
-section.w div#c nav ul li a {
+section.w div#c nav ul li a{
     color: black;
 }
