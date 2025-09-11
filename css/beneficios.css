@@ -1,0 +1,130 @@
+
+section.beneficios{ 
+    margin: 4vw;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 10vw;
+}
+section.bannerBeneficios{
+    background: #FEE5C1;
+}
+section.beneficios p{
+    margin: 10px 0 10px;
+    padding: 6px 6px 6px 6px;
+}
+section.beneficios h2{
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+    font-size: 1.6rem;
+}
+section.beneficios img{
+    margin: 1vw 0 1vw 0;
+}
+section.beneficios a{
+    margin: 5px 5px 5px 5px;
+}
+section.beneficios div.beneficiosDiv{
+    margin-bottom: 10vw;
+}
+
+
+
+
+
+
+
+html {
+    background-color: rgb(252, 243, 224);
+}
+
+/* HEADER */
+
+header {
+    background-color: #FFC573;
+    border-radius: 0 0 5vw 5vw;
+    padding-bottom: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TOPO */
+
+section.Principal {
+    margin: 5vw;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    background-color: #FECF8C;
+    border-radius: 5vw;
+    padding: 10vw;
+    text-align: justify;
+}
+
+section.Principal section#b h5 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+section.Principal section#c h3 {
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+section.Principal section#c section#a{
+background-color: #FEE8C7;
+padding: 15px 15px 15px 15px;
+border-radius: 15px;
+}
+section.Principal section#c section#a img{
+border-radius: 15px;
+padding: 10px 0 0 0;
+width: 100%;
+}
+/*CONTEÚDO*/
+section.alimentacao{
+    margin: 4vw;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    padding: 10vw;
+}
+section.alimentacao iframe{
+    padding: 19px 0 25px 0;
+    width: 16vw;
+}
+section.alimentacao div.l a{
+    color: #3F3F80;
+}
+section.alimentacao p span{
+    font-weight: bold;
+}
+/*PDF*/
+section#d{
+    margin: 4vw;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    padding: 10vw;
+}
+section#d h3{
+    font-weight: bold;
+    padding: 0 0 15px 0;
+}
+section#d a{
+    color: black;
+    font-size: 1rem;
+}
+
+/*FOOTER*/
+section.w{
+    margin: 4vw;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 10vw;
+    background-color: #8EA657;
+    border-radius: 25px;
+}

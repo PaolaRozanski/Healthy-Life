@@ -1,0 +1,53 @@
+/* FORMATAÇÃO */
+html {
+    background-color: rgb(252, 243, 224);
+}
+
+/* HEADER */
+
+header {
+    background-color: #FFC573;
+    font-size: 1.5rem;
+    border-radius: 0 0 5vw 5vw;
+    padding-bottom: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*TOPO*/
+
+nav ul li {
+    font-size: 1.5rem;
+    padding: 20px 10px 9px 50px;
+}
+nav ul li a{
+        color: black;
+}
+
+/*FOOTER*/
+section.w {
+    background-color: #8cab55;
+    padding: 1.5rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 2rem;
+}
+
+section.w div#b p strong {
+    font-weight: bold;
+}
+
+section.w div#b nav a {
+    color: black;
+}
+
+section.w div#c nav ul li a {
+    color: black;
+}
