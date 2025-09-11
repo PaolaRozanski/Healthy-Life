@@ -1,22 +1,30 @@
 
 section.beneficios{ 
     margin: 4vw;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.5rem;
     padding: 10vw;
 }
 section.bannerBeneficios{
     background: #FEE5C1;
 }
+section.beneficios p{
+    margin: 10px 0 10px;
+    padding: 6px 6px 6px 6px;
+}
 section.beneficios h2{
     font-weight: bold;
-    margin: 10px 5px 10px 5px;
+    margin: 10px 10px 10px 10px;
+    font-size: 1.6rem;
 }
 section.beneficios img{
     margin: 1vw 0 1vw 0;
 }
 section.beneficios a{
     margin: 5px 5px 5px 5px;
+}
+section.beneficios div.beneficiosDiv{
+    margin-bottom: 10vw;
 }
 
 
