@@ -63,3 +63,33 @@ section.alimentacao iframe{
     padding: 19px 0 25px 0;
     width: 16vw;
 }
+section.alimentacao div.l a{
+    color: #3F3F80;
+}
+section.alimentacao p span{
+    font-weight: bold;
+}
+/*PDF*/
+section#d{
+    margin: 4vw;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    padding: 10vw;
+}
+section#d h3{
+    font-weight: bold;
+    padding: 0 0 15px 0;
+}
+section#d a{
+    color: black;
+    font-size: 1rem;
+}
+/*FOOTER*/
+section.w{
+    margin: 4vw;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 10vw;
+    background-color: #8EA657;
+    border-radius: 25px;
+}
