@@ -23,27 +23,13 @@ header h1 {
 
 /*TOPO*/
 
-section#a {
+nav ul li {
     font-size: 1.5rem;
-    padding: 3rem;
-    margin-top: 2rem;
+    padding: 20px 10px 9px 50px;
 }
-section#a h3{
-font-weight: bold;
-padding: 0 0 20px;
+nav ul li a{
+        color: black;
 }
-section#a ul li ul li{
-    display: flex;
-}
-section#a ul li ul li img{
-    width: 13%;
-    border-bottom: none;
-}
-section#a ul li ul li p{
-   padding: 20px 30px 20px 30px;
-}
-
-
 
 /*FOOTER*/
 section.w {
@@ -53,12 +39,15 @@ section.w {
     border-top-right-radius: 25px;
     margin-top: 2rem;
 }
-section.w div#b p strong{
+
+section.w div#b p strong {
     font-weight: bold;
 }
-section.w div#b nav a{
+
+section.w div#b nav a {
     color: black;
 }
-section.w div#c nav ul li a{
+
+section.w div#c nav ul li a {
     color: black;
 }
