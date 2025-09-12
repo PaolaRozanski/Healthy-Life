@@ -44,8 +44,15 @@ section#a ul li ul li img{
 }
 section#a ul li ul li p{
    padding: 2vw 3vw 2vw 3vw;
+   margin: 2vw;
+    border-radius: 15px;
+    background-color: #B3B3E5;
+    color: #1B1B5C;
+    line-height: 2vw;
 }
-
+section#a ul li ul li p strong {
+    font-weight: bold;
+}
 
 
 /*FOOTER*/
