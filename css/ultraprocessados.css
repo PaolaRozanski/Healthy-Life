@@ -3,3 +3,13 @@
 html {
     font-family: "Labrada", serif;
 }
+
+/* BODY */
+main {
+    padding: 0 7vw;
+}
+section.AAlimentos {
+    background-color: #FECF8C;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

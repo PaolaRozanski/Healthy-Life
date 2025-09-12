@@ -3,7 +3,6 @@
 html {
     background-color: #FEE5C1;
     font-family: "Labrada", serif;
-    padding: 0 5vw;
 }
 
 /* HEADER */
@@ -21,8 +20,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-}*/
+}
 
 /*TOPO*/
 
@@ -36,7 +34,7 @@ section nav ul li a{
         font-weight: bold;
 }
 
-/*FOOTER
+/*FOOTER  */
 section.w {
     background-color: #8cab55;
     padding: 1.5rem;
@@ -55,4 +53,4 @@ section.w div#b nav a {
 
 section.w div#c nav ul li a {
     color: black;
-}*/
+}
