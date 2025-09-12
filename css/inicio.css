@@ -1,10 +1,14 @@
 /* FORMATAÇÃO */
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,100..900;1,100..900&display=swap');
 html {
     background-color: rgb(252, 243, 224);
+    font-family: "Labrada", serif;
 }
 
 /* HEADER */
-
+body.Principal {
+    padding: 0 10vw;
+}
 header {
     background-color: #FFC573;
     font-size: 1.5rem;

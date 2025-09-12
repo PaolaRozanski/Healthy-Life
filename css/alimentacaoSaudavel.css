@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,100..900;1,100..900&display=swap');
 /* FORMATAÇÃO */
 html {
     background-color: rgb(252, 243, 224);
 }
 
-<<<<<<< HEAD:css/sty.css
 /* HEADER */
 
 header {
@@ -21,8 +21,6 @@ header h1 {
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
-=======
->>>>>>> c8a7b5c (Continuação):css/alimentacaoSaudavel.css
 
 /* TOPO */
 
@@ -100,7 +98,6 @@ section#d a {
     color: black;
     font-size: 1.2rem;
 }
-<<<<<<< HEAD:css/sty.css
 
 /*FOOTER*/
 section.w {
@@ -122,5 +119,4 @@ section.w div nav ul li a{
 section.w div.f a{
     color: black;
 }
-=======
->>>>>>> c8a7b5c (Continuação):css/alimentacaoSaudavel.css
+
