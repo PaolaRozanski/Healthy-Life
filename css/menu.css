@@ -1,9 +1,12 @@
 /* FORMATAÇÃO */
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,100..900;1,100..900&display=swap');
 html {
     background-color: #FEE5C1;
+    font-family: "Labrada", serif;
+    padding: 0 5vw;
 }
 
-/* HEADER 
+/* HEADER */
 
 header {
     background-color: #FFC573;
