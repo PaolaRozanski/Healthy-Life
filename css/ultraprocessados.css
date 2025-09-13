@@ -31,14 +31,19 @@ section.BAlimentos img{
 }
 section.BAlimentos{
     font-size: 1.5rem;
-    text-align: center;
 }
 section.BAlimentos p{
     margin: 3vw 1vw 3vw 1vw;
 }
 section.CAlimentos{
     font-size: 1.5rem;
-    text-align: center;
+}
+section.CAlimentos p{
+    margin: 2vw 0 2vw 0;
+}
+section.CAlimentos h3{
+    margin: 2vw 0 2vw 0;
+    font-weight: bold;
 }
 section.CAlimentos ul.videos li{
     display: flex;
