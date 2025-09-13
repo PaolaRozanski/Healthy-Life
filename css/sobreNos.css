@@ -31,7 +31,10 @@ section#a {
 }
 section#a h3{
 font-weight: bold;
-padding: 0 0 20px;
+padding: 0 0 20px; background-image: url('../scr/fundo para pc.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 section#a ul li {
     display: flex;
