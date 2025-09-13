@@ -7,9 +7,48 @@ html {
 /* BODY */
 main {
     padding: 0 7vw;
+    margin: 4vw;
 }
-section.AAlimentos {
+section.bannerUltraprocessados{
+    text-align: center;
+    background: #FEE5C1;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
+section.bannerUltraprocessados img{
+    width: 100%;
+}
+section.AAlimentos{
     background-color: #FECF8C;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    font-size: 1.5rem;
+    padding: 2vw 5vw 2vw 5vw;
+}
+section.BAlimentos img{
+    margin: 2vw 0 1vw 0;
+    width: 50%;
+}
+section.BAlimentos{
+    font-size: 1.5rem;
+    text-align: center;
+}
+section.BAlimentos p{
+    margin: 3vw 1vw 3vw 1vw;
+}
+section.CAlimentos{
+    font-size: 1.5rem;
+    text-align: center;
+}
+section.CAlimentos ul.videos li{
+    display: flex;
+    text-align: center;
+    margin: 2vw 1vw 2vw 1vw;
+}
+section.CAlimentos ul.videos li a{
+    padding: 6vw 0 0 0;
+    margin: 0 0 0 4vw;
+}
+section.CAlimentos ul.videos li iframe{
+    border-radius: 2vw;
 }
