@@ -1,14 +1,20 @@
 /* FORMATAÇÃO */
 @import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,100..900;1,100..900&display=swap');
+
 html {
     background-color: rgb(252, 243, 224);
     font-family: "Labrada", serif;
 }
 
 /* HEADER */
+html {
+    font-family: "Labrada", serif;
+}
+
 body.Principal {
     padding: 0 10vw;
 }
+
 header {
     background-color: #FFC573;
     font-size: 1.5rem;
@@ -25,7 +31,69 @@ header h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+    background-color: #FFC573;
+    padding-bottom: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header div.abertura {
+    display: flex;
+    padding-left: 5vw;
+    align-items: center;
+    padding-top: 2vw;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 2.3rem !important;
+    font-family: "Labrada", serif !important;
+    padding-left: 5vw;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul {
+    padding-top: 2vw;
+    display: flex;
+}
+
+header li {
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+.inicioLi {
+    color: #FFC573;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
 /* TOPO */
+main {
+    padding: 0 7vw;
+    margin: 4.15vw;
+}
+
+section.bannerUltraprocessados {
+    text-align: center;
+    background: #FEE5C1;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
+section.bannerUltraprocessados img {
+    width: 100%
+}
 
 section.Principal {
     background-color: #FECF8C;
@@ -33,7 +101,7 @@ section.Principal {
     padding: 3rem;
     font-size: 1.5rem;
     padding: 2rem;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
@@ -110,15 +178,19 @@ section.w {
     border-top-right-radius: 25px;
     margin-top: 2rem;
 }
-section.w div#b p strong{
+
+section.w div#b p strong {
     font-weight: bold;
 }
-section.w div#b nav a{
+
+section.w div#b nav a {
     color: black;
 }
-section.w div nav ul li a{
+
+section.w div nav ul li a {
     color: black;
 }
-section.w div.f a{
+
+section.w div.f a {
     color: black;
 }
