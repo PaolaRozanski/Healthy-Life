@@ -82,12 +82,14 @@ section.Principal h3 {
     font-weight: bold;
     padding-bottom: 1vw;
 }
+
 section#b {
     padding-left: 2vw;
     line-height: 2.2rem;
     padding-right: 5vw;
     padding-bottom: 2vw;
 }
+
 section.Principal {
     background-color: #FECF8C;
     font-size: 2rem;
@@ -101,18 +103,20 @@ section.Principal section#b h5 {
     font-size: 1.5rem;
     font-weight: bold;
 }
+
 section.Principal section#c {
     line-height: 2.7rem;
 }
+
 section.Principal section#c h3 {
     font-weight: bold;
     padding: 23px 0 23px 0;
     text-align: left;
     font-size: 3rem;
-    font-family: Arial, Helvetica, sans-serif;
+
     padding-left: 2vw;
     padding-bottom: 2vw;
-    }
+}
 
 section.Principal section#c section#a {
     background-color: #FEE8C7;
@@ -122,10 +126,12 @@ section.Principal section#c section#a {
     padding-left: 5vw;
     padding-right: 5vw;
 }
-section.Principal section#c section#a p{
+
+section.Principal section#c section#a p {
     text-align: left;
     padding-right: 4.6vw;
 }
+
 section.Principal section#c section#a img {
     border-radius: 30px;
     width: 80%;
@@ -133,10 +139,12 @@ section.Principal section#c section#a img {
     margin: 0 auto;
     align-content: center;
 }
+
 section.Principal section#c section#a p#fonte {
     padding-bottom: 2vw;
     padding-top: 2vw;
 }
+
 section.Principal section#c section#a p#fronte {
     padding-bottom: 3vw;
 }
@@ -146,22 +154,25 @@ section.Principal section#c section#a p#fronte {
     font-size: 2.1rem;
     padding-left: 20px;
 }
+
 section.alimentacao {
     font-size: 1.5rem;
     line-height: 1.7rem;
     padding-left: 5vw;
     font-size: 2rem;
-    padding-top: 6vw;
+    padding-top: 3vw;
     padding-right: 7vw;
     background-color: #FECF8C;
-        border-bottom-left-radius: 25px;
+    border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     padding-bottom: 5vw;
 }
+
 section.alimentacao p.frase {
     text-align: left;
-    padding-bottom: 2vw;
+    padding-bottom: 4vw;
 }
+
 section.alimentacao iframe {
     display: block;
     margin: 0;
@@ -169,16 +180,15 @@ section.alimentacao iframe {
     height: 30vw;
     border-radius: 25px;
 }
-section.alimentacao div.l {
-    padding-top: 2vw;
-}
-section.alimentacao div.l a {
-    color: #3F3F80;
-    text-decoration: none;
+
+p.necessario {
+    padding-top: 3vw;
+
 }
 
-section.alimentacao p span {
-    font-weight: bold;
+span.bc {
+    font-size: 2.1rem;
+    padding-left: 20px;
 }
 
 /*PDF*/
