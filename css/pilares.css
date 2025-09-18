@@ -82,9 +82,11 @@ section.cardbox {
 }
 section#Principal p{
     font-size: 2.3rem;
+        text-align: left !important;
 }
 section#a h2{
     font-size: 2.3rem;
+        text-align: left !important;
 }
 section#a {
     padding: 3rem;
@@ -105,12 +107,11 @@ section#Principal {
 }
 section#Priorize {
     padding: 30px 30px 30px 30px;
-
 }
 section#Priorize img {
     border-radius: 25px;
     padding: 10px 10px 10px;
-    width: 30%;
+    width: 45%;
     align-items: center;
     display: block;
     margin-left: 35%;
@@ -121,14 +122,13 @@ section#Priorize ol li h3 {
     margin: 1vw;
     font-size: 2.5rem;
     font-weight: bold;
-    padding: 1vw;
-    text-align: center;
+    padding: 1vw
 }
 section#Priorize ol li iframe {
     display: block;
     margin-left: 5%;
     padding: 1vw;
-    align-items: center;
+    align-items: left;
     margin-left: 35%;
 }
 
@@ -136,7 +136,7 @@ section#Priorize ol li iframe {
 section#Priorize ol li p {
     margin: 0vw 5vw 2.5vw 5vw;
     font-size: 2.2rem;
-    text-align: justify;
+    text-align: justify; 
 }
 section.alimentacao iframe {
     margin: 1vw 0 25px 0;

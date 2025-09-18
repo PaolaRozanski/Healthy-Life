@@ -80,8 +80,9 @@ section.cardbox {
 }
 /*CABEÇALHO*/
 main {
-    padding: 0 7vw;
-    font-size: 1.5rem;
+    padding: 7vw;
+    font-size: 2rem;
+    text-align: left;
 }
 section.bannerSugestoes{
     background: #FEE5C1;
@@ -115,7 +116,51 @@ section.sugestoes2 ol li{
 section.sugestoes2 ol li h3{
     font-weight: bold;
 }
-
+section.dicas {
+    background-color:#FFC573;
+    padding: 2vw 8vw;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+section.dicas p {
+    padding-right: 4vw;
+    line-height: 2.3rem;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+}
+section.dicas h2 {
+    font-weight: bold;
+    font-size: 2.1rem;
+    padding-bottom: 1vw;
+}
+.dicasParagrafo {
+    padding-left: 2vw;
+}
+section.dicas img {
+    padding-left: 9vw;
+}
+section#operador {
+    padding-top: 2vw;
+    padding-bottom: 5vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+section#operador ul {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+section#operador h2 {
+    padding-left: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+}
+section#operador li {
+    padding-top: 1vw;
+}
+section#operador p {
+    padding-bottom: 2vw;
+}
+section#
 /*FOOTER*/
 footer {    
     text-decoration: none;

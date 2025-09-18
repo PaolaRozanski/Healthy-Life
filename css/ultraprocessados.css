@@ -92,25 +92,22 @@ section.AAlimentos {
     background-color: #FECF8C;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    font-size: 1.5rem;
-    padding: 2vw 5vw 2vw 5vw;
+    padding: 2vw 7vw 2vw 7vw;
 }
-
+main {
+    padding: 0 7vw;
+    font-size: 2rem;
+}
 section.BAlimentos img {
-    margin: 2vw 0 1vw 0;
-    width: 50%;
+    margin: 2vw 0 1vw 10vw;
+    border-radius: 25px;
+    width: 70%;
 }
-
-section.BAlimentos {
-    font-size: 1.5rem;
+.BAlimentos {
+    padding: 0 7vw;
 }
-
 section.BAlimentos p {
-    margin: 3vw 1vw 3vw 1vw;
-}
-
-section.CAlimentos {
-    font-size: 1.5rem;
+    margin: 3vw 7vw 3vw 1vw;
 }
 
 section.CAlimentos p {
@@ -121,7 +118,10 @@ section.CAlimentos h3 {
     margin: 2vw 0 2vw 0;
     font-weight: bold;
 }
-
+.CAlimentos {
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
 section.CAlimentos ul.videos li {
     display: flex;
     text-align: center;
