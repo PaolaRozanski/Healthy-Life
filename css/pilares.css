@@ -1,45 +1,85 @@
 /* FORMATAÇÃO */
 body {
-        background-color: #FEE8C7;
+        background-color: rgb(252, 243, 224);
         font-size: 2rem;
 
 }
 
 /* HEADER */
+html {
+    font-family: "Labrada", serif;
+}
+body.Principal {
+    padding: 0 10vw;
+}
 header {
-  background: linear-gradient(to bottom, #fbc77f, #f6b655); /* degradê laranja */
-  display: flex;
-  align-items: center;
-  padding: 15px 25px;
-  border-radius: 0 0 40px 40px; /* cantos arredondados na parte de baixo */
-  font-family: "Courier New", monospace;
-  font-weight: bold;
-  gap: 20px; /* espaçamento entre os elementos */
+    background-color: #FFC573;
+    font-size: 1.5rem;
+    border-radius: 0 0 5vw 5vw;
+    padding-bottom: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Ícone do menu (primeira imagem) */
-header a img {
-  width: 35px;
-  height: auto;
-}
-
-/* Barra separadora (segunda imagem) */
-header img[alt="barra"] {
-  height: 45px;
-  width: auto;
-  margin: 0 10px;
-
-}
-
-/* Logo texto */
 header h1 {
-  font-size: 24px;
-  color: #fff;
-  letter-spacing: 2px;
-  margin: 0;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
+header {
+    background-color: #FFC573;
+    padding-bottom: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    color: white;
+    text-decoration: none;
+}
+header div.abertura {
+    display: flex;
+    padding-left: 5vw;
+    align-items: center;
+    padding-top: 2vw;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 2.3rem !important;
+    font-family: "Labrada", serif !important;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header ul {
+    padding-top: 2vw;
+}
+
 
 /* TOPO */
+
+section.titulo {
+    width: 100%;
+    height: 90vh;
+    align-content: center;
+}
+
+section.cardbox {
+    width: 50%;
+    margin: auto;
+    align-content: center;
+    text-align: left;
+    font-size: 5rem;
+    color: #414183;
+    font-weight: bold;
+    background-color: #FFF7E9D9;
+    opacity: 95%;
+    padding-left: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    border-radius: 50px;
+}
 section#Principal p{
     font-size: 2.3rem;
 }
@@ -58,19 +98,15 @@ section#a {
 section#Principal {
     background-color: #FECF8C;
     font-size: 2.3rem;
-    padding: 3rem;
     font-size: 1.5rem;
     padding: 2rem;
-    margin-top: 2rem;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 section#Priorize {
-    background-color: #FEE8C7;
     padding: 30px 30px 30px 30px;
 
 }
-
 section#Priorize img {
     border-radius: 25px;
     padding: 10px 10px 10px;
@@ -114,7 +150,27 @@ section.alimentacao div.l a {
 section.alimentacao p span {
     font-weight: bold;
 }
+section.titulo {
+    width: 100%;
+    height: 90vh;
+    align-content: center;
+}
 
+section.cardbox {
+    width: 50%;
+    margin: auto;
+    align-content: center;
+    text-align: left;
+    font-size: 5rem;
+    color: #414183;
+    font-weight: bold;
+    background-color: #FFF7E9D9;
+    opacity: 95%;
+    padding-left: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    border-radius: 50px;
+}
 
 /*REFERÊNCIAS*/
 section#referencias h3 {
@@ -213,5 +269,8 @@ footer div.f a{
 
 
 
+}
+body, main {
+    padding: 0 !important;
 }
 

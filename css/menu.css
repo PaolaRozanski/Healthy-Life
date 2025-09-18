@@ -5,6 +5,10 @@ html {
     font-family: "Labrada", serif;
 }
 
+body, main {
+    padding: 0 !important;
+}
+
 /* HEADER */
 /*
 header {

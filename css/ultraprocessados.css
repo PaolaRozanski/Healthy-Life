@@ -4,12 +4,135 @@ html {
     font-family: "Labrada", serif;
 }
 
-/* BODY */
-main {
-    padding: 0 7vw;
+body, main {
+    padding: 0 !important;
 }
+
+header {
+    background-color: #FFC573;
+    font-size: 1.5rem;
+    border-radius: 0 0 5vw 5vw;
+    padding-bottom: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #FFC573;
+    padding-bottom: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header div.abertura {
+    display: flex;
+    padding-left: 5vw;
+    align-items: center;
+    padding-top: 2vw;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 2.3rem !important;
+    font-family: "Labrada", serif !important;
+    padding-left: 5vw;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul {
+    padding-top: 2vw;
+    display: flex;
+}
+
+header li {
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+
+.MaleficiosDois {
+    color: #FFC573;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px 5px;
+}
+section.cardbox {
+    width: 50%;
+    margin: auto;
+    align-content: center;
+    text-align: left;
+    font-size: 5rem;
+    color: #414183;
+    font-weight: bold;
+    background-color: #FFF7E9D9;
+    opacity: 95%;
+    padding-left: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    border-radius: 50px;
+}
+/* BODY */
 section.AAlimentos {
     background-color: #FECF8C;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    font-size: 1.5rem;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+section.BAlimentos img {
+    margin: 2vw 0 1vw 0;
+    width: 50%;
+}
+
+section.BAlimentos {
+    font-size: 1.5rem;
+}
+
+section.BAlimentos p {
+    margin: 3vw 1vw 3vw 1vw;
+}
+
+section.CAlimentos {
+    font-size: 1.5rem;
+}
+
+section.CAlimentos p {
+    margin: 2vw 0 2vw 0;
+}
+
+section.CAlimentos h3 {
+    margin: 2vw 0 2vw 0;
+    font-weight: bold;
+}
+
+section.CAlimentos ul.videos li {
+    display: flex;
+    text-align: center;
+    margin: 2vw 1vw 2vw 1vw;
+}
+
+section.CAlimentos ul.videos li a {
+    padding: 6vw 0 0 0;
+    margin: 0 0 0 4vw;
+}
+
+section.CAlimentos ul.videos li iframe {
+    border-radius: 2vw;
 }
