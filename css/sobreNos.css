@@ -52,6 +52,16 @@ header h1 {
 header a {
     color: white;
     text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+}
+header a:hover, header a:focus, header a.active {
+    background: white;
+    color: #FFC573;
+    cursor: pointer;
+    text-decoration: none;
+}
 header ul {
     padding-top: 2vw;
 }
