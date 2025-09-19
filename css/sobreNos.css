@@ -52,6 +52,15 @@ header h1 {
 header a {
     color: white;
     text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+}
+header a:hover, header a:focus, header a.active {
+    background: white;
+    color: #FFC573;
+    cursor: pointer;
+    text-decoration: none;
 }
 header ul {
     padding-top: 2vw;
@@ -95,9 +104,11 @@ section#a ul li {
     display: flex;
 }
 section#a ul li img{
-    width: 7%;
-    height: 7%;
-    margin: 2vw;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: 3vw;
+    
 }
 section#a ul li div img {
     width: 30%;
@@ -118,7 +129,7 @@ section#a ul {
     list-style: none !important;
     padding-left: 0;
 }
-.caio img {
+section#a img {
     width: 50%;
 }
 

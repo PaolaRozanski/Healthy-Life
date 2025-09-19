@@ -117,7 +117,7 @@ section.sugestoes2 ol li h3{
     font-weight: bold;
 }
 section.dicas {
-    background-color:#FFC573;
+    background-color: #FECF8C;
     padding: 2vw 8vw;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -160,7 +160,6 @@ section#operador li {
 section#operador p {
     padding-bottom: 2vw;
 }
-section#
 /*FOOTER*/
 footer {    
     text-decoration: none;
