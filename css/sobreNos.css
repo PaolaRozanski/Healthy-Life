@@ -101,8 +101,13 @@ section.projeto {
 }
 
 section.sobreOProjeto {
+<<<<<<< HEAD
     padding: 2vw
     ;
+=======
+    background-color: rgb(252, 243, 224);
+    padding: 2vw;
+>>>>>>> 242bdca4bf426b3a4b315172f0cab157c4c63dfd
     border-radius: 25px;
 }
 section.links {
