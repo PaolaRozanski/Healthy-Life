@@ -1,0 +1,241 @@
+/* FORMATAÇÃO */
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    background-color: rgb(252, 243, 224);
+    font-family: "Labrada", serif;
+}
+
+/* HEADER */
+html {
+    font-family: "Labrada", serif;
+}
+
+
+header {
+    background-color: #FFC573;
+    font-size: 1.5rem;
+    border-radius: 0 0 5vw 5vw;
+    padding-bottom: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #FFC573;
+    padding-bottom: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header div.abertura {
+    display: flex;
+    padding-left: 5vw;
+    align-items: center;
+    padding-top: 2vw;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 2.3rem !important;
+    font-family: "Labrada", serif !important;
+    padding-left: 5vw;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul {
+    padding-top: 2vw;
+    display: flex;
+}
+
+header li {
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+.inicioLi {
+    color: #FFC573;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+/* TOPO */
+section.Principal h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1vw;
+}
+
+section#b {
+    padding-left: 2vw;
+    line-height: 2.2rem;
+    padding-right: 5vw;
+    padding-bottom: 2vw;
+}
+
+section.Principal {
+    background-color: #FECF8C;
+    font-size: 2rem;
+    padding: 2rem;
+    /* margin-top: 2rem; */
+
+    padding-bottom: 4.5vw;
+}
+
+section.Principal section#b h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+section.Principal section#c {
+    line-height: 2.7rem;
+}
+
+section.Principal section#c h3 {
+    font-weight: bold;
+    padding: 23px 0 23px 0;
+    text-align: left;
+    font-size: 3rem;
+
+    padding-left: 2vw;
+    padding-bottom: 2vw;
+}
+
+section.Principal section#c section#a {
+    background-color: #FEE8C7;
+    padding: 30px 30px 30px 30px;
+    border-radius: 15px;
+    padding-bottom: 4vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+section.Principal section#c section#a p {
+    text-align: left;
+    padding-right: 4.6vw;
+    text-align: justify;
+}
+
+section.Principal section#c section#a img {
+    border-radius: 30px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    align-content: center;
+}
+
+section.Principal section#c section#a p#fonte {
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+}
+
+section.Principal section#c section#a p#fronte {
+    padding-bottom: 3vw;
+}
+
+/*CONTEÚDO*/
+.primeiro {
+    font-size: 2.1rem;
+    padding-left: 20px;
+}
+
+section.alimentacao {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    padding-left: 5vw;
+    font-size: 2rem;
+    padding-top: 3vw;
+    padding-right: 7vw;
+    background-color: #FECF8C;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-bottom: 5vw;
+}
+
+section.alimentacao p.frase {
+    text-align: left;
+    padding-bottom: 4vw;
+}
+
+section.alimentacao iframe {
+    display: block;
+    margin: 0;
+    width: 60%;
+    height: 30vw;
+    border-radius: 25px;
+}
+
+p.necessario {
+    padding-top: 3vw;
+
+}
+
+span.bc {
+    font-size: 2.1rem;
+    padding-left: 20px;
+}
+
+/*PDF*/
+section#d {
+    margin: 4vw;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    padding: 10vw;
+}
+
+section#d h3 {
+    font-weight: bold;
+    padding: 0 0 15px 0;
+}
+
+section#d a {
+    color: black;
+    font-size: 1.2rem;
+}
+
+/*FOOTER*/
+section.w {
+    background-color: #8cab55;
+    padding: 1.5rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 2rem;
+}
+
+section.w div#b p strong {
+    font-weight: bold;
+}
+
+section.w div#b nav a {
+    color: black;
+}
+
+section.w div nav ul li a {
+    color: black;
+}
+
+section.w div.f a {
+    color: black;
+}
+
+body,
+main {
+    padding: 0 !important;
+}

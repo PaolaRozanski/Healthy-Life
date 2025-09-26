@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,100..900;1,100..900&display=swap');
+/* FORMATAÇÃO */
+html {
+    background-color: rgb(252, 243, 224);
+}
+
+/* HEADER */
+
+/* TOPO */
+
+section.Principal {
+    background-color: #FECF8C;
+    font-size: 1.3rem;
+    padding: 3rem;
+    font-size: 1.5rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+section.titulo {
+    width: 100%;
+    height: 90vh;
+    align-content: center;
+}
+
+section.cardbox {
+    width: 50%;
+    margin: auto;
+    align-content: center;
+    text-align: left;
+    font-size: 5rem;
+    color: #414183;
+    font-weight: bold;
+    background-color: #FFF7E9D9;
+    opacity: 95%;
+    padding-left: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    border-radius: 50px;
+}
+section.Principal section#b h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+section.Principal section#c h3 {
+    font-weight: bold;
+    padding: 23px 0 23px 0;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+section.Principal section#c section#a {
+    background-color: #FEE8C7;
+    padding: 30px 30px 30px 30px;
+    border-radius: 15px;
+}
+
+section.Principal section#c section#a img {
+    border-radius: 25px;
+    padding: 30px 0 0 0;
+    width: 100%;
+}
+
+/*CONTEÚDO*/
+section.alimentacao {
+    margin: 4vw;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    padding: 10vw;
+}
+
+section.alimentacao iframe {
+    padding: 19px 0 25px 0;
+    width: 16vw;
+}
+
+section.alimentacao div.l a {
+    color: #3F3F80;
+}
+
+section.alimentacao p span {
+    font-weight: bold;
+}
+
+
+/*PDF*/
+section#d {
+    margin: 4vw;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    padding: 10vw;
+}
+
+section#d h3 {
+    font-weight: bold;
+    padding: 0 0 15px 0;
+}
+
+section#d a {
+    color: black;
+    font-size: 1.2rem;
+}
+
+/*FOOTER*/
+section.w {
+    background-color: #8cab55;
+    padding: 1.5rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 2rem;
+}
+section.w div#b p strong{
+    font-weight: bold;
+}
+section.w div#b nav a{
+    color: black;
+}
+section.w div nav ul li a{
+    color: black;
+}
+section.w div.f a{
+    color: black;
+}
+
+body, main {
+    padding: 0 !important;
+}
+
