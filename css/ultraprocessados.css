@@ -117,6 +117,7 @@ section.CAlimentos p {
 section.CAlimentos h3 {
     margin: 2vw 0 2vw 0;
     font-weight: bold;
+    font-size: 3rem;
 }
 .CAlimentos {
     padding-left: 7vw;
@@ -135,4 +136,8 @@ section.CAlimentos ul.videos li a {
 
 section.CAlimentos ul.videos li iframe {
     border-radius: 2vw;
+}
+section.CAlimentos li {
+    font-family: "Fira Sans", sans-serif ;
+    font-size: 2rem !important;
 }

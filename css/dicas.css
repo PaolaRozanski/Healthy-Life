@@ -145,6 +145,10 @@ section#operador {
     padding-left: 7vw;
     padding-right: 7vw;
 }
+section#operador h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
 section#operador ul {
     padding-left: 2vw;
     padding-right: 2vw;

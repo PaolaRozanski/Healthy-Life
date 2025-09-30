@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Labrada:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Labrada:ital,wght@0,100..900;1,100..900&family=Martian+Mono:wght@100..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap');
 /* FORMATAÇÃO */
 html {
     background-color: rgb(252, 243, 224);
@@ -33,7 +33,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Martian Mono", monospace !important;
 }
 
 header {
@@ -69,6 +69,7 @@ header a {
     padding: 5px 10px 5px;
     border-radius: 8px;
     font-size: 1.3rem !important;
+    font-family: "Martian Mono", monospace !important;
 }
 header a:hover, header a:focus, header a.active {
     background: white !important;
@@ -82,9 +83,7 @@ header ul {
 }
 
 header li {
-    padding-right: 2vw;
-    padding-left: 2vw;
-}
+    padding-right: 4vw;}
 .MaleficiosDois {
     color: #FFC573;
     background-color: white;
@@ -239,6 +238,9 @@ header ul li ul {
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
+
+    flex-direction: column;
+    gap: 5px;
 }
 
 /* mostra o submenu quando o pai está ativo */
