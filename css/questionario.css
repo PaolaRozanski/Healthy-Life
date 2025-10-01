@@ -41,6 +41,7 @@ main.questionario button {
 
 /* =========================================================== QUIZZZ PRINCIPAL ============================================================ */
 
+
 body.quizzz {
     background-color: #8cab55 !important;
     font-family: "Martian Mono", monospace !important;
@@ -123,4 +124,19 @@ footer.footer {
 
 .ultimo {
     padding-bottom: 5vw !important;
+}
+button {
+    transition: transform 0.2s ease, background-color 0.2s;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
+.footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
 }

@@ -8,6 +8,7 @@ html {
 }
 main p {
     line-height: 3rem;
+    text-align: justify !important;
 }
 
 body,
