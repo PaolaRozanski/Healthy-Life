@@ -1,13 +1,3 @@
-
-
-
-
-
-
-
-
-
-
 section ul.lista-receitas {
     display: flex;
     flex-wrap: wrap;
@@ -19,16 +9,23 @@ section ul.lista-receitas {
 
 section ul.lista-receitas li {
     text-align: center;
-    flex: 1 1 200px;
+    flex: 0 1 250px; /* fixa largura */
     max-width: 250px;
+    min-width: 250px;
+    height: 350px; /* altura fixa */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 section ul.lista-receitas img {
-    width: 100%;
-    height: auto;
+    width: 220px;      /* largura fixa */
+    height: 220px;     /* altura fixa */
     border-radius: 10px;
     object-fit: cover;
     transition: transform 0.3s ease;
+    margin-bottom: 10px;
 }
 
 section ul.lista-receitas img:hover {
