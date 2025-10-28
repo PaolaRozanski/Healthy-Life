@@ -104,7 +104,7 @@ section.titulo {
     background-position: center center;
 }
 
-section.cardbox {
+div.cardbox {
     width: 50%;
     margin: auto;
     align-content: center;
