@@ -127,22 +127,6 @@ section.titulo {
     align-content: center;
 }
 
-section.cardbox {
-    width: 50%;
-    margin: auto;
-    align-content: center;
-    text-align: left;
-    font-size: 5rem;
-    color: #414183;
-    font-weight: bold;
-    background-color: #FFF7E9D9;
-    opacity: 95%;
-    padding-left: 5vw;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
-    border-radius: 50px;
-}
-
 /*FOOTER*/
 footer {
     text-decoration: none;
