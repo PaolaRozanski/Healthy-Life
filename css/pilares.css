@@ -16,7 +16,7 @@ body.Principal {
 
 
 
-section#Principal p {
+div#Principal p {
     font-size: 2.3rem;
     text-align: left !important;
 }
@@ -35,7 +35,7 @@ section#a {
     border-bottom-right-radius: 25px;
 }
 
-section#Principal {
+div#Principal {
     background-color: #FECF8C;
     font-size: 2.3rem;
     font-size: 1.5rem;
