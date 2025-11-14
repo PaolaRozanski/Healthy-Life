@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,100..900;1,100..900&display=swap');
 
 html {
-    background-color: rgb(252, 243, 224);
     font-family: "Labrada", serif;
 }
 
@@ -28,11 +27,8 @@ div#f {
 }
 
 section.Principal {
-    background-color: #FECF8C;
     font-size: 1.5rem;
     padding: 2rem;
-    /* margin-top: 2rem; */
-
     padding-bottom: 4.5vw;
 }
 
@@ -41,57 +37,47 @@ section.Principal section#b h5 {
     font-weight: bold;
 }
 
-section.Principal section#m {
+section.Principal{
     line-height: 2.7rem;
 }
 
-section.Principal section#m h3 {
+section.Principal h3 {
     font-weight: bold;
-    padding: 23px 0 23px 0;
     text-align: left;
-    font-size: 3rem;
-
-    padding-left: 2vw;
-    padding-bottom: 2vw;
+    font-size: 2rem;
+    padding-bottom: 0.5vw;
 }
 
-section.Principal  section#m {
-    background-color: #FEE8C7;
+section.Principal {
     padding: 30px 30px 30px 30px;
     border-radius: 15px;
     padding-bottom: 4vw;
     padding-left: 5vw;
     padding-right: 5vw;
-
-    transition: transform 0.2s ease, background-color 0.2s;
+    text-align: center;
 }
 
-section.Principal  section#m:hover {
-    transform: scale(1.01);
-    box-shadow: 0px 6px 2px 1px #3b3b3bb0;
-}
-
-section.Principal  section#m p {
-    text-align: left;
-    padding-right: 4.6vw;
-    text-align: justify;
-}
-
-section.Principal  section#m img {
-    border-radius: 30px;
-    width: 80%;
+section.Principal img {
+    border-radius: 10px;
+    margin-top: 2vw;
+    width: 78%;
     display: block;
     margin: 0 auto;
     align-content: center;
+    max-height: 740px;
+    margin-top: 5vw;
 }
+section.Principal ul li {
+    text-align: center;
+    margin: 2vw 10vw;
 
-section.Principal section#m p#fonte {
-    padding-bottom: 2vw;
-    padding-top: 2vw;
 }
-
-section.Principal section#m p#fronte {
-    padding-bottom: 3vw;
+section.Principal ul li#Up {
+    opacity: 90%;
+    background-color: #FEE8C7E5;
+    padding: 1vw 2vw;
+    border-radius: 10px;
+    max-width: 78%;
 }
 
 /*CONTEÚDO*/
@@ -107,7 +93,6 @@ section.alimentacao {
     font-size: 2rem;
     padding-top: 3vw;
     padding-right: 7vw;
-    background-color: #FECF8C;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     padding-bottom: 5vw;
@@ -124,12 +109,6 @@ section.alimentacao iframe {
     width: 60%;
     height: 30vw;
     border-radius: 25px;
-    transition: transform 0.2s ease, background-color 0.2s;
-}
-
-section.alimentacao iframe:hover {
-    transform: scale(1.01);
-    box-shadow: 0px 6px 2px 1px #3b3b3bb0;
 }
 
 p.necessario {

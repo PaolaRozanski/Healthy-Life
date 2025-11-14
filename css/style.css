@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Traditional+Nushu:wght@300..700&display=swap');
 /* FORMATAÇÃO */
 html {
-    background-color: rgb(252, 243, 224);
+    background-color: #FFF7E9;
     font-family: "Labrada", serif;
 
 
@@ -105,6 +105,8 @@ section.titulo {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 div.cardbox {
