@@ -134,15 +134,20 @@ section.sabermais p {
 
 
 @media (max-width: 600px) {
+    body {
+    font-size: 16px; 
+}
 
-    body,
-    main {
-        padding: 0 !important;
+@media (max-width: 768px) {
+    body.Principal {
+        padding: 0 5vw; 
     }
 
-    section#a {
-        padding: 1rem;
+    section.titulo {
+        height: auto; 
+        padding: 2rem 0; 
     }
+<<<<<<< HEAD
 }
 
 /* Ensure the hero doesn't stay huge when this CSS is loaded after style.css */
@@ -153,4 +158,39 @@ section.sabermais p {
     }
     div.cardbox { width: 90%; padding-left: 2rem; padding-right: 2rem; border-radius: 25px; }
     header { padding-bottom: 1rem; }
+=======
+
+    section.cardbox {
+        width: 90%; 
+        font-size: 3rem; 
+        padding: 2rem; 
+    }
+
+    section#somos {
+        font-size: 1rem; 
+        padding: 1rem; 
+    }
+
+    section#somos ul li {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    section#somos ul li img {
+        width: 30vw; 
+        height: 30vw;
+    }
+
+    section#somos ul li p {
+        padding: 1rem; 
+        margin: 1rem 0; 
+    }
+
+  
+
+    section.projeto, section.sobreOProjeto {
+        padding: 1rem; 
+    }
+}
+>>>>>>> e081cfd2fb62ee18f7944b167dd01bf8580b5ed9
 }

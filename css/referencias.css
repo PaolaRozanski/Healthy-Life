@@ -9,3 +9,15 @@ main a{
     padding-bottom: 2vw;
     padding-top: 1vw;
 }
+
+@media (max-width: 768px) {
+
+  section.refere h2{
+    font-size: 1.5rem;
+    padding: 4vw;
+  }
+  section.refere ul li a{
+    font-size: 6vw;
+
+  }
+}
