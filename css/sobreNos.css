@@ -155,13 +155,50 @@ section.sabermais p {
 
 
 @media (max-width: 600px) {
+    body {
+    font-size: 16px; 
+}
 
-    body,
-    main {
-        padding: 0 !important;
+@media (max-width: 768px) {
+    body.Principal {
+        padding: 0 5vw; 
     }
 
-    section#a {
-        padding: 1rem;
+    section.titulo {
+        height: auto; 
+        padding: 2rem 0; 
     }
+
+    section.cardbox {
+        width: 90%; 
+        font-size: 3rem; 
+        padding: 2rem; 
+    }
+
+    section#somos {
+        font-size: 1rem; 
+        padding: 1rem; 
+    }
+
+    section#somos ul li {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    section#somos ul li img {
+        width: 30vw; 
+        height: 30vw;
+    }
+
+    section#somos ul li p {
+        padding: 1rem; 
+        margin: 1rem 0; 
+    }
+
+  
+
+    section.projeto, section.sobreOProjeto {
+        padding: 1rem; 
+    }
+}
 }
