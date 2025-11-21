@@ -22,6 +22,10 @@ main {
 
 /* HEADER */
 
+header div.headerCellphone {
+    display: none;
+}
+
 main p {
     font-family: "Fira Sans", sans-serif !important;
 }
@@ -99,7 +103,7 @@ header li {
 
 section.titulo {
     width: 100%;
-    height: 90vh;
+    height: 83vh !important;
     align-content: center;
     background-image: url(../scr/fundo\ para\ pc.png);
     background-repeat: no-repeat;
@@ -116,8 +120,7 @@ div.cardbox {
     text-align: left;
     color: #414183;
     font-weight: bold;
-    background-color: #FFF7E9D9;
-    opacity: 85%;
+    background-color: #fcf5dfd3;
     padding-left: 5vw;
     padding-top: 5vw;
     padding-bottom: 5vw;
@@ -126,7 +129,7 @@ div.cardbox {
 div.cardbox h2 {
     font-size: 3.8rem;
     margin-bottom: 2vw;
-    font-family: "Noto Traditional Nushu", sans-serif; !important;
+    font-family: "Noto Traditional Nushu", sans-serif !important;
 }
 div.cardbox h3,
 div.cardbox p {
@@ -139,26 +142,30 @@ div.cardbox p {
 div.cardbox h3 {
     margin-bottom: 0.3vw;
 }
-/*CABEÇALHO*/
-section.titulo {
-    width: 100%;
-    height: 90vh;
-    align-content: center;
+iframe {
+    margin: 0 auto;
+    margin-bottom: 1.5vw;
+    border-radius: 25px;
+    width: 50%;
+    height: 343px;
 }
 
 /*FOOTER*/
-footer {
-    text-decoration: none;
-    background-color: #8cab55;
-    padding: 1.5rem;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    margin-top: 2rem;
+footer  {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    padding: 2rem 2rem 1rem 2rem;
+    text-decoration: none !important;
+    background-color: #8cab55 !important;
+    padding: 1.5rem !important;
+    border-top-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+    margin-top: 2rem !important;
+    gap: 0.6rem !important;
+    padding: 1.2rem 1.5rem 0.8rem 1.5rem !important;
+    font-family: "Noto Traditional Nushu", sans-serif !important;
+    font-size: 1.3rem;
 }
 
 footer div#b p {
@@ -224,6 +231,7 @@ footer div.f a {
     color: #FFF7E9;
     text-decoration: none;
 }
+
 
 
 /*======================================= SUBMENU =============================================== */
@@ -297,4 +305,80 @@ html, body {
 *::before,
 *::after {
     box-sizing: inherit;
+}
+
+@media (max-width: 780px) {
+    header div.abertura {
+        display: none;
+    }
+    header div.headerPc{
+        display: none;
+    }
+    header div.headerCellphone {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FFC573;
+        padding: 1rem 2rem;
+        border-radius: 0 0 20px 20px;
+    }
+    header h1 {
+        font-size: 1.5rem !important;
+        font-family: "Noto Traditional Nushu", sans-serif !important;
+        padding-left: 2vw;
+        padding-right: 26vw;
+    }
+    header img {
+        max-width: 50px;
+    }
+    header div.menu-icon {
+        font-size: 2.3rem;
+        color: white;
+        cursor: pointer;
+    }
+    header a {
+        padding: 0vw;
+        margin: 0vw;
+    }
+    header ul.linksCellphone {
+        display: none;
+    }
+    div.cardbox p {
+        font-size: 1rem;
+        
+    }
+    div.cardbox h3 {
+        font-size: 1.5rem;
+    }
+    footer p,
+    footer a {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    footer ul li {
+        display: none;
+    }
+    footer div#c p {
+        display: none;
+    }
+    footer nav {
+        text-align: center;
+    }
+    footer div.f {
+    flex: 0 0 100%;
+    order: 999;
+    text-align: center !important;
+    margin-top: 0.25rem;
+    padding-top: 0.25rem;
+}
+footer div#b {
+    align-items: center !important;
+    margin-bottom: 0.25rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer div#b p {
+    margin-top: 3vw;
+    font-size: 0.9rem;
+}
 }

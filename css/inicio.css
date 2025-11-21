@@ -46,6 +46,7 @@ section.Principal h3 {
     text-align: left;
     font-size: 2rem;
     padding-bottom: 0.5vw;
+    font-family: "Platypi", serif;
 }
 
 section.Principal {
@@ -69,11 +70,10 @@ section.Principal img {
 }
 section.Principal ul li {
     text-align: center;
-    margin: 2vw 10vw;
     padding: 1vw 2vw;
     max-width: 78%;
-        opacity: 90%;
-    background-color: #FEE8C7E5;
+        margin: 0 auto;
+        margin-top: 5vw !important;
 }
 section.Principal ul li#Up {
     opacity: 90%;
@@ -83,63 +83,24 @@ section.Principal ul li#Up {
     max-width: 78%;
 }
 
-/*CONTEÚDO*/
-.primeiro {
-    font-size: 1.5rem;
-    padding-left: 20px;
-}
-
-section.alimentacao {
-    font-size: 1.5rem;
-    line-height: 1.7rem;
-    padding-left: 5vw;
-    font-size: 2rem;
-    padding-top: 3vw;
-    padding-right: 7vw;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    padding-bottom: 5vw;
-}
-
-section.alimentacao p.frase {
-    text-align: left;
-    padding-bottom: 4vw;
-}
-
-section.alimentacao iframe {
-    display: block;
-    margin: 0;
-    width: 60%;
-    height: 30vw;
-    border-radius: 25px;
-}
-
-p.necessario {
-    padding-top: 3vw;
-
-}
-
-span.bc {
-    font-size: 2.1rem;
-    padding-left: 20px;
-}
-
-/*PDF*/
 section#d {
-    margin: 4vw;
-    font-size: 1.5rem;
+    margin: 5vw 0vw;
     line-height: 1.7rem;
-    padding: 10vw;
+    padding:0vw 16.4vw;
+    font-family: "Noto Traditional Nushu", sans-serif;
 }
 
 section#d h3 {
     font-weight: bold;
     padding: 0 0 15px 0;
+    font-size: 1.1rem;
 }
 
 section#d a {
     color: black;
-    font-size: 1.2rem;
+        font-size: 1rem;
+    text-decoration: none;
+    font-family: "Noto Traditional Nushu", sans-serif !important;
 }
 
 /*FOOTER*/
@@ -170,4 +131,28 @@ section.w div.f a {
 body,
 main {
     padding: 0 !important;
+}
+
+@media (max-width: 480px) {
+    section.titulo {
+        display: none;
+    }
+    section.Principal img {
+        max-width: 310px;
+        max-height: 220px;
+    }
+    section.Principal ul li{
+        width: 310px !important;
+        margin-bottom: 10vw;
+    }
+    section.Principal p {
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+    section.Principal h3 {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin-bottom: 3vw;
+    }
+    
 }
