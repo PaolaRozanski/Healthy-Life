@@ -10,20 +10,22 @@ main {
     padding: 0 7vw;
     font-size: 2rem;
 }
-div.BAlimentos img {
+section.BAlimentos img {
     margin: 2vw 0 1vw 10vw;
     border-radius: 25px;
     width: 70%;
 }
-div.BAlimentos {
+section.BAlimentos {
     padding: 0 7vw;
 }
-div.BAlimentos p {
+section.BAlimentos p {
     margin: 3vw 7vw 3vw 1vw;
+    font-size: 2rem;
 }
 
 section.CAlimentos p {
     margin: 2vw 0 2vw 0;
+    font-size: 2rem;
 }
 
 section.CAlimentos h3 {
@@ -35,6 +37,9 @@ section.CAlimentos h3 {
     padding-left: 7vw;
     padding-right: 7vw;
 }
+section.CAlimentos ul li{
+    list-style-type: disc;
+}
 section.CAlimentos ul.videos li {
     display: flex;
     text-align: center;
@@ -42,12 +47,9 @@ section.CAlimentos ul.videos li {
 }
 
 section.CAlimentos ul.videos li a {
+    color: black;
     padding: 6vw 0 0 0;
     margin: 0 0 0 4vw;
-}
-
-section.CAlimentos ul.videos li iframe {
-    border-radius: 2vw;
 }
 section.CAlimentos li {
     font-family: "Fira Sans", sans-serif ;

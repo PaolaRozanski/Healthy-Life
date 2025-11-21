@@ -1,0 +1,74 @@
+
+
+/* ----------- CONTEÚDO ----------- */
+.projeto {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+
+}
+
+.projeto h2 {
+  font-size: 28px;
+
+  margin-bottom: 10px;
+}
+
+.projeto h3 {
+  font-size: 22px;
+
+  margin-top: 25px;
+}
+
+.projeto p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-top: 10px;
+}
+
+.projeto ul li {
+  margin-left: 20px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* ----------- LINKS DAS ATAS ----------- */
+.links ul li {
+  background: #FEE5C1;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 10px ;
+}
+
+.links h5 {
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+.links a {
+  color: black;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+/* ----------- SESSÕES "SABER MAIS" ----------- */
+.sabermais {
+  margin-top: 40px;
+  padding: 20px;
+  background: #fff8e1;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+
+.sabermais h3 {
+  font-size: 20px;
+}
+
+.sabermais a {
+
+  font-weight: 600;
+}
+
+
