@@ -9,3 +9,9 @@ main a{
     padding-bottom: 2vw;
     padding-top: 1vw;
 }
+
+@media (max-width: 768px) {
+  main{
+    
+  }
+}
