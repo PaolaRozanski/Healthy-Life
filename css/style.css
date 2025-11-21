@@ -22,6 +22,10 @@ main {
 
 /* HEADER */
 
+header div.headerCellphone {
+    display: none;
+}
+
 main p {
     font-family: "Fira Sans", sans-serif !important;
 }
@@ -148,17 +152,18 @@ iframe {
 
 /*FOOTER*/
 footer  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     text-decoration: none !important;
     background-color: #8cab55 !important;
     padding: 1.5rem !important;
     border-top-left-radius: 25px !important;
     border-top-right-radius: 25px !important;
     margin-top: 2rem !important;
-    justify-content: space-around !important;
-    align-items: center !important;
-    flex-wrap: wrap !important;
-    gap: 1.5rem !important;
-    padding: 2rem 2rem 1rem 2rem !important;
+    gap: 0.6rem !important;
+    padding: 1.2rem 1.5rem 0.8rem 1.5rem !important;
     font-family: "Noto Traditional Nushu", sans-serif !important;
     font-size: 1.3rem;
 }
@@ -226,6 +231,7 @@ footer div.f a {
     color: #FFF7E9;
     text-decoration: none;
 }
+
 
 
 /*======================================= SUBMENU =============================================== */
@@ -302,10 +308,77 @@ html, body {
 }
 
 @media (max-width: 780px) {
+    header div.abertura {
+        display: none;
+    }
+    header div.headerPc{
+        display: none;
+    }
+    header div.headerCellphone {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FFC573;
+        padding: 1rem 2rem;
+        border-radius: 0 0 20px 20px;
+    }
+    header h1 {
+        font-size: 1.5rem !important;
+        font-family: "Noto Traditional Nushu", sans-serif !important;
+        padding-left: 2vw;
+        padding-right: 26vw;
+    }
+    header img {
+        max-width: 50px;
+    }
+    header div.menu-icon {
+        font-size: 2.3rem;
+        color: white;
+        cursor: pointer;
+    }
+    header a {
+        padding: 0vw;
+        margin: 0vw;
+    }
+    header ul.linksCellphone {
+        display: none;
+    }
     div.cardbox p {
         font-size: 1rem;
+        
     }
     div.cardbox h3 {
         font-size: 1.5rem;
     }
+    footer p,
+    footer a {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    footer ul li {
+        display: none;
+    }
+    footer div#c p {
+        display: none;
+    }
+    footer nav {
+        text-align: center;
+    }
+    footer div.f {
+    flex: 0 0 100%;
+    order: 999;
+    text-align: center !important;
+    margin-top: 0.25rem;
+    padding-top: 0.25rem;
+}
+footer div#b {
+    align-items: center !important;
+    margin-bottom: 0.25rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer div#b p {
+    margin-top: 3vw;
+    font-size: 0.9rem;
+}
 }
