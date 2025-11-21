@@ -77,7 +77,7 @@ section.Principal {
 section.Principal img {
     border-radius: 10px;
     margin-top: 2vw;
-    width: 78%;
+    max-width: 78%;
     display: block;
     margin: 0 auto;
     align-content: center;
@@ -89,9 +89,11 @@ section.Principal ul li {
     margin: 2vw 10vw;
     padding: 1vw 2vw;
     max-width: 78%;
+    background-color: transparent;
+    margin-bottom: 4vw;
 }
-section.Principal ul li#Up {
-    opacity: 90%;
+section.Principal ul li.up {
+    opacity: 0.9;
     background-color: #FEE8C7E5;
     padding: 1vw 2vw;
     border-radius: 10px;
@@ -104,37 +106,13 @@ section#Priorize ol li h3 {
     padding: 1vw
 }
 
-section#Priorize ol li iframe {
+section.Principal ul li iframe {
     display: block;
-    margin-left: 5%;
-    padding: 1vw;
-    align-items: left;
-    margin-left: 35%;
+    text-align: center;
 }
-
-.banana1 p {
-    background-color: #FECF8C;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    border-radius: 25px;
-    margin-bottom: 3vw;
-}
-
-.banana2 p {
-    background-color: #FFC573;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    border-radius: 25px;
-    margin-bottom: 3vw;
-}
-
 section#Priorize ol li p {
     margin: 0vw 5vw 2.5vw 5vw;
-    font-size: 2.2rem;
+    font-size: 1.4rem;
     text-align: justify;
 }
 
@@ -151,42 +129,24 @@ section.alimentacao p span {
     font-weight: bold;
 }
 
-section.titulo {
-    width: 100%;
-    height: 90vh;
-    align-content: center;
-}
-
-section.cardbox {
-    width: 50%;
-    margin: auto;
-    align-content: center;
-    text-align: left;
-    font-size: 5rem;
-    color: #414183;
-    font-weight: bold;
-    background-color: #FFF7E9D9;
-    opacity: 95%;
-    padding-left: 5vw;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
-    border-radius: 50px;
-}
-
 /*REFERÊNCIAS*/
 section#referencias h3 {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     line-height: 1.7rem;
     font-weight: bold;
-    margin: 0vw 5vw 2.5vw 5vw;
+    margin: 0vw 5vw 1.5vw 5vw;
 }
 
 section#referencias a {
     display: block;
-    margin: 0vw 5vw 2.5vw 5vw;
-    font-size: 2.2rem;
+    margin: 0vw 5vw 0vw 5vw;
+    font-size: 1.5rem;
     color: #3F3F80;
     text-decoration: none;
+}
+section#referencias {
+    margin-bottom: 5vw;
+    font-family: "Noto Traditional Nushu", sans-serif
 }
 
 section#Priorize ol li ul li {
@@ -200,85 +160,4 @@ section#d a {
     font-size: 2.2rem;
     margin: 2vw 5vw 2.5vw 5vw;
     text-align: justify;
-}
-
-footer {
-    text-decoration: none;
-    background-color: #8cab55;
-    padding: 1.5rem;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    margin-top: 2rem;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2.5rem;
-    padding: 2rem 2rem 1rem 2rem;
-}
-
-footer div#b p {
-    font-weight: bold;
-    padding: 15px 0 15px 0;
-}
-
-footer div#b nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 2.5rem;
-    list-style: none;
-    padding-left: 0;
-
-}
-
-footer div#c p.l {
-    font-weight: bold;
-    padding: 10px 0 15px 0;
-}
-
-footer div#c nav ul.menu-rodape {
-    display: flex;
-    justify-content: baseline;
-    gap: 1.5rem;
-    list-style: none;
-    padding-left: 0;
-}
-
-footer div#c nav ul.menu-rodape li a {
-    color: black;
-    text-decoration: none;
-}
-
-
-footer div#b nav a {
-    color: black;
-    float: right;
-    font-size: 2rem;
-    padding: 10px;
-    margin: 15px 0 0 0;
-}
-
-footer div#c nav ul li a {
-    color: black;
-}
-
-footer div#d nav ul li a {
-    color: black;
-}
-
-footer div#e nav ul li a {
-    color: black;
-}
-
-footer div.f {
-    text-align: center;
-    padding-top: 1rem;
-}
-
-footer div.f a {
-    font-weight: bolder;
-    color: #FFF7E9;
-    text-decoration: none;
-
-
-
 }
