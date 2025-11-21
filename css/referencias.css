@@ -11,7 +11,13 @@ main a{
 }
 
 @media (max-width: 768px) {
-  main{
-    
+
+  section.refere h2{
+    font-size: 1.5rem;
+    padding: 4vw;
+  }
+  section.refere ul li a{
+    font-size: 6vw;
+
   }
 }
