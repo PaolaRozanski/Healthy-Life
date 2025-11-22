@@ -219,3 +219,11 @@ footer div.f a{
 body, main {
     padding: 0 !important;
 }
+@media only screen and (max-width: 780px){
+    main p{
+        font-size: 1.1rem;
+    }
+    main h3{
+        font-size: 1.5rem;
+    }
+}
