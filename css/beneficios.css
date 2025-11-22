@@ -74,6 +74,9 @@ section.bannerBeneficios img{
     width: 100%;
 }
 
+.titulo p{
+    padding: 0 7vw 0 0;
+}
 section.beneficios{ 
     margin: 4vw;
     font-size: 2rem;
