@@ -58,12 +58,6 @@ header ul {
     padding-top: 2vw;
 }
 
-/* Ensure the hero doesn't stay huge when this CSS is loaded after style.css */
-@media (max-width: 780px) {
-    section.titulo { height: auto !important; padding: 2rem 1rem; }
-    div.cardbox { width: 90%; padding-left: 2rem; padding-right: 2rem; border-radius: 25px; }
-    header { padding-bottom: 1rem; }
-}
 /*CABEÇALHO*/
 main {
     padding: 7vw;
