@@ -1,5 +1,4 @@
 
-/* BODY */
 section.titulo p {
         padding: 0vw 7vw 0vw 0vw;
 }
@@ -48,9 +47,58 @@ section.CAlimentos div.container ul.videos {
 }
 
 .container ul.videos li iframe {
-   max-width: auto;
-   /*CHORA*/
+    width: 100%;      
+    height: auto;     
+    aspect-ratio: 16 / 9;  
+    border: none;     
+    max-width: 1200px;  
+    margin: 0 auto;    
+    display: block;
+     flex: 1 1 300px;
 }
 
 
 
+@media (max-width: 768px) {
+    main {
+        padding: 0 3vw; 
+        font-size: 1.1rem; 
+    }
+
+    section.titulo  {
+        display: none;
+    }
+
+    section.BAlimentos img {
+        width: 90%; 
+        margin: 2vw auto; 
+        display: block; 
+    }
+
+    section.BAlimentos p,
+    section.CAlimentos p {
+        font-size: 1.5rem; 
+        margin: 2vw 0; 
+    }
+
+    section.CAlimentos h3 {
+        font-size: 2rem; 
+    }
+
+    section.CAlimentos ul {
+        padding-left: 1.5rem; 
+    }
+
+    section.CAlimentos div.container ul.videos {
+        flex-direction: column; 
+    }
+
+    section.CAlimentos div.container ul.videos li {
+        margin: 1vw 0; 
+        width: 100%; 
+    }
+
+    .f {
+        text-align: center; 
+    }
+}
