@@ -11,8 +11,6 @@ section ul.lista-receitas li {
     text-align: center;
     flex: 0 1 250px; /* fixa largura */
     max-width: 250px;
-    min-width: 250px;
-    height: 350px; /* altura fixa */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -43,4 +41,19 @@ section ul.lista-receitas h2 {
 section ul.lista-receitas a {
     text-decoration: none;
     color: inherit;
+}
+@media screen and (max-width:780px){
+section ul.lista-receitas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+section ul.lista-receitas li{
+    min-width: auto;
+    height: auto;
+}
+
+section ul.lista-receitas img{
+    width: 30vw;
+    height: 30vw;
+}    
 }
