@@ -1,0 +1,112 @@
+section.titulo div.cardbox p{
+padding: 0vw 7vw 0 0 ;
+}
+.projeto {
+max-width: 950px;
+margin: 60px auto;
+padding: 0 20px;
+
+}
+
+.projeto h3 {
+font-size: 2.5rem;
+margin-bottom: 10px;
+}
+
+.projeto section.links ul li {
+margin: 5vw 0 0 0;
+}
+.projeto section.links h3{
+margin: 2.5vw 0 0 0 ;
+}
+
+.projeto p {
+margin-top: 10px;
+}
+
+.projeto ul li {
+margin-left: 20px;
+margin-top: 5px;
+}
+
+.links ul li {
+max-width: 900px;
+background: #FEE5C1;
+padding: 15px;
+border-radius: 12px;
+margin-bottom: 15px;
+box-shadow: 0 3px 10px ;
+}
+.projeto section.links ul li h5{
+font-size: 1.5rem;
+text-align: center;
+}
+.projeto section.links ul li p a{
+  text-align: center;
+}
+.projeto section.links h3{
+  text-align: center;
+}
+.links a {
+color: black;
+text-decoration: underline;
+font-weight: 600;
+}
+
+.sabermais h3{
+  padding: 1.5rem 0 0 0;
+}
+
+.projeto section.links ul {
+    max-width: 600px; /* Largura máxima da lista */
+    margin: 0 auto;   /* Centraliza a lista na página */
+
+
+}
+
+.projeto section.links ul li p{
+    text-align: center;
+    margin: 0 9rem ;
+}
+
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .titulo{
+      display: none;
+    }
+    .projeto {
+        padding: 0 10px; 
+    }
+
+    .projeto h3 {
+        font-size: 2rem;
+    }
+
+    .projeto section.links h3 {
+        font-size: 1.8rem; 
+        margin: 1.5vw 0; 
+    }
+
+    
+    .projeto section.links ul li {
+        margin: 4vw 0; 
+    }
+
+    .links ul li {
+        max-width: 100%; 
+        padding: 10px;
+    }
+
+    .projeto section.links ul li p {
+        margin: 0; 
+        padding: 0 10px; 
+    }
+
+    .sabermais h3 {
+        font-size: 1.5rem; 
+        padding: 1rem 0;  
+    }
+}

@@ -3,7 +3,7 @@ html {
     font-family: "Labrada", serif;
 }
 main p{
-    line-height: 3rem !important;
+    line-height: 2rem !important;
 }
 header {
     background-color: #FFC573;
@@ -48,22 +48,6 @@ header a {
 header ul {
     padding-top: 2vw;
 }
-section.cardbox {
-    width: 50%;
-    margin: auto;
-    align-content: center;
-    text-align: left;
-    font-size: 5rem;
-    color: #414183;
-    font-weight: bold;
-    background-color: #FFF7E9D9;
-    opacity: 95%;
-    padding-left: 5vw;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
-    border-radius: 50px;
-    margin-bottom: 5vw;
-}
 section.bannerBeneficios{
     background: #FEE5C1;
     text-align: center;
@@ -74,6 +58,9 @@ section.bannerBeneficios img{
     width: 100%;
 }
 
+.titulo p{
+    padding: 0 7vw 0 0;
+}
 section.beneficios{ 
     margin: 4vw;
     font-size: 2rem;
@@ -97,9 +84,9 @@ section.beneficios a{
     margin: 5px 5px 5px 5px;
 }
 section.beneficios ul li{
-    background-color: #FEE8C7;
+    background-color: #FEE8C7E5;
     padding: 1vw 2vw;
-    margin:  2vw 0 2vw 0;
+    margin:  3vw 0 3vw 0;
     border-radius: 15px;
 }
 section.beneficios h3{
@@ -120,17 +107,16 @@ html {
     section.titulo {
         display: none;
     }
-    section.beneficios h2{
-        font-size: 1.7rem;
+    section.beneficios h3{
+        font-size: 1.3rem;
         margin: 6px 6px 6px 6px;
         padding: 4px 0 4px 0;
     }
     section.beneficios p{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         padding: 1px 2px 1px 2px;
     }
     section.beneficios ul li{
-        padding: 1vw;
         margin: 5vw 0 5vw 0;
     }
 }

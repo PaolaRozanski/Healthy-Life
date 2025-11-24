@@ -4,73 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receitas</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/receitas.css">
-    <script src="https://kit.fontawesome.com/a068b6b303.js" crossorigin="anonymous"></script>
+    <title>Formulario</title>
 </head>
 
 <body>
-    <header>
-        <div class="abertura">
-            <a href="index.html"><img src="scr/Logo.png" alt="logo"></a>
-            <h1>Healthy Life</h1>
-        </div>
-        <ul>
-            <li>
-                <a href="index.html">Início</a>
-                <ul>
-                    <li>
-                        <a href="Referencias.html">Referências</a>
-                    </li>
-                </ul>
-            </li>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            border: none;
+            list-style: none;
+            text-decoration: none;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
 
-            <li>
-                <a href="Pilares.html">Pilares</a>
-                <ul>
-                    <li>
-                        <a href="Maleficios.html">Malefícios</a>
-                    </li>
-                    <li>
-                        <a href="beneficios.html">Benefícios</a>
-                    </li>
-                    <li>
-                        <a href="Dicas.html">Dicas</a>
-                    </li>
-                </ul>
-            </li>
+        main {
+            text-align: center;
+        }
 
-            <li>
-                <a href="SobreNós.html">Sobre Nós</a>
-                <ul>
-                    <li>
-                        <a href="sopreoProjeto.html">Sobre Projeto</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="questionario.html">Quizzz</a>
-            </li>
-             <li>
-                <a href="Receitas.html">Receitas</a>
-                <ul>
-                    <li>
-                        <a href="Receitas.html">Receitas</a>
-                    </li>
-                    <li>
-                                                <a href="frutas.html">Frutas</a>
-                    </li>
-                </ul>
-            </li>
+        main section {
+            display: none;
+        }
 
-
-        </ul>
-    </header>
-
+        main section.pg1 {
+            display: block;
+        }
+    </style>
     <main>
-        <section>
+        <section class="pg1">
+            <h1>Bem Vindo(a)</h1>
+            <p>Qual é o seu nome?</p>
+            <form action="#">
+                <input type="text" placeholder="Digite seu nome aqui">
+                <button type="button" onclick="vaiParaPg2()"> Próximo </button>
+            </form>
+        </section>
+        <section class="pg2">
+            <h1><span>Fulano</span>, Qual refeiçoes vc deseja?</h1>
+            <form action="#">
+                <label> <input type="radio" value="1" name="Estudante" onclick="vaiParaPg3()">cafe </label>
+                <label> <input type="radio" value="2" name="Estudante" onclick="vaiParaPg4()">almoco </label>
+                <button type="button"  >Próximo</button>
+            </form>
+        </section>
+        <section class="pg3">
+            <h1>Algumas receitas que você pode adicionar em sua rotina</h1>
 
         <ul class="lista-receitas">
         <li>
@@ -256,86 +235,45 @@
         </li>
     </ul>
 
-    </section>
-
-
-       
+                </select> <button type="button" onclick="vaiParaPg4()">Próximo</button>
+        </section>
+        <section class="pg4">
+            <h1>Qual turma você pertence?</h1>
+            <form action="#">
+                <label for="turma"> Turma </label>
+                <select name="turma" id="turma">
+                    <option value="1">1INFO1</option>
+                    <option value="2">1INFO2</option>
+                    <option value="3">1INFO3</option>
+                </select> <button type="button" onclick="vaiParaPg4()">Próximo</button>
+            </form>
+        </section>
     </main>
+    <script
+        type="text/javascript"> let nome = ""; let turma = "";
+            const pg1 = document.querySelector("section.pg1"); 
+            const pg2 = document.querySelector("section.pg2"); 
+            const pg3 = document.querySelector("section.pg3"); 
+            const pg4 = document.querySelector("section.pg4");
 
-    <footer>
-
-        <div id="a">
-            <p>Desenvolvido por Alunos do IFC campus-Araquari</p>
-            <p>© Alguns direitos reservados; </p>
-        </div>
-        <div id="b">
-            <p>Email: pato.healthy@gmail.com</p>
-            <nav>
-                <a href="https://www.instagram.com/pato.healthy?igsh=N2hxcmtzcjJiY3lk"> <span
-                        class="fa-brands fa-instagram"></span></a>
-
-                <a href="https://x.com/pato_healthy"><span class="fa-brands fa-x-twitter"></span></a>
-            </nav>
-        </div>
-        <div id="c">
-            <p class="l">Links:</p>
-            <nav>
-                <ul class="menu-rodape">
-                    <li>
-                        <ul>
-                            <li>
-                                <a href="alimentacaoEquilibrada.html">
-                                    Início
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="beneficios.html">
-                                    Benefícios
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul>
-                            <li>
-                                <a href="Pilares.html">
-                                    Pilares
-                                </a>
-                            </li>
-                            <li>
-                                <a href="Maleficios.html">
-                                    Alimentos Ultraprocessados
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul>
-                            <li>
-                                <a href="Dicas.html">
-                                    Dicas
-                                </a>
-                            </li>
-                            <li>
-                                <a href="SobreNós.html">
-                                    Sobre nós
-                                </a>
-                            </li>
-                            <li>
-                                <a href="sopreoProjeto.html">Sobre o Projeto</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="f">
-            <a href="Receitas.html">VOLTAR AO TOPO</a>
-        </div>
-
-    </footer>
-
+            function vaiParaPg2() {
+                pg1.style.display = "none"; pg2.style.display = "block";
+                nome = document.querySelector("section.pg1 input").value;
+                 document.querySelector("section.pg2 h1 span").innerHTML = nome;
+            } function vaiParaPg3() {
+                let estudante = document.querySelector("section.pg2 input:checked").value 
+                if (estudante == 1) {
+                    pg2.style.display = "none"; pg3.style.display = "block";
+                } else {
+                    pg2.style.display = "none"; pg4.style.display = "block"
+                }
+            } function vaiParaPg4() {
+                let estudante = document.querySelector("section.pg2 input:checked").value 
+                if (estudante == 1) {
+                    pg2.style.display = "none"; pg3.style.display = "block";
+                } else {
+                    pg2.style.display = "none"; pg4.style.display = "block"
+                }}</script>
 </body>
 
-</html>    
+</html>

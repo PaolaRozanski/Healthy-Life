@@ -150,14 +150,16 @@ section.sabermais p {
 }
 
 
-@media (max-width: 780px) {
+@media only screen and (max-width: 780px) {
     section.titulo {
         height: auto !important;
         padding: 2rem 1rem;
     }
     div.cardbox { width: 90%; padding-left: 2rem; padding-right: 2rem; border-radius: 25px; }
     header { padding-bottom: 1rem; }
-
+    section.titulo{
+        display: none;
+    }
     section.cardbox {
         width: 90%; 
         font-size: 3rem; 

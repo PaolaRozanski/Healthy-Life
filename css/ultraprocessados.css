@@ -1,29 +1,27 @@
 
-/* BODY */
-section.AAlimentos {
-    background-color: #FECF8C;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    padding: 2vw 7vw 2vw 7vw;
+section.titulo p {
+        padding: 0vw 7vw 0vw 0vw;
 }
 main {
     padding: 0 7vw;
     font-size: 2rem;
 }
-div.BAlimentos img {
+section.BAlimentos img {
     margin: 2vw 0 1vw 10vw;
     border-radius: 25px;
     width: 70%;
 }
-div.BAlimentos {
+section.BAlimentos {
     padding: 0 7vw;
 }
-div.BAlimentos p {
+section.BAlimentos p {
     margin: 3vw 7vw 3vw 1vw;
+    font-size: 2rem;
 }
 
 section.CAlimentos p {
     margin: 2vw 0 2vw 0;
+    font-size: 2rem;
 }
 
 section.CAlimentos h3 {
@@ -35,21 +33,72 @@ section.CAlimentos h3 {
     padding-left: 7vw;
     padding-right: 7vw;
 }
-section.CAlimentos ul.videos li {
+section.CAlimentos ul li{
+    list-style-type: disc;
+}
+section.CAlimentos  div.container ul.videos li {
     display: flex;
     text-align: center;
     margin: 2vw 1vw 2vw 1vw;
 }
 
-section.CAlimentos ul.videos li a {
-    padding: 6vw 0 0 0;
-    margin: 0 0 0 4vw;
+section.CAlimentos div.container ul.videos {
+    display: flex;
 }
 
-section.CAlimentos ul.videos li iframe {
-    border-radius: 2vw;
+.container ul.videos li iframe {
+    width: 100%;      
+    height: auto;     
+    aspect-ratio: 16 / 9;  
+    border: none;     
+    max-width: 1200px;  
+    margin: 0 auto;    
+    display: block;
+     flex: 1 1 300px;
 }
-section.CAlimentos li {
-    font-family: "Fira Sans", sans-serif ;
-    font-size: 2rem !important;
+
+
+
+@media (max-width: 768px) {
+    main {
+        padding: 0 3vw; 
+        font-size: 1.1rem; 
+    }
+
+    section.titulo  {
+        display: none;
+    }
+
+    section.BAlimentos img {
+        width: 90%; 
+        margin: 2vw auto; 
+        display: block; 
+    }
+
+    section.BAlimentos p,
+    section.CAlimentos p {
+        font-size: 1.5rem; 
+        margin: 2vw 0; 
+    }
+
+    section.CAlimentos h3 {
+        font-size: 2rem; 
+    }
+
+    section.CAlimentos ul {
+        padding-left: 1.5rem; 
+    }
+
+    section.CAlimentos div.container ul.videos {
+        flex-direction: column; 
+    }
+
+    section.CAlimentos div.container ul.videos li {
+        margin: 1vw 0; 
+        width: 100%; 
+    }
+
+    .f {
+        text-align: center; 
+    }
 }

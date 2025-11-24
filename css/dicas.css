@@ -58,12 +58,6 @@ header ul {
     padding-top: 2vw;
 }
 
-/* Ensure the hero doesn't stay huge when this CSS is loaded after style.css */
-@media (max-width: 780px) {
-    section.titulo { height: auto !important; padding: 2rem 1rem; }
-    div.cardbox { width: 90%; padding-left: 2rem; padding-right: 2rem; border-radius: 25px; }
-    header { padding-bottom: 1rem; }
-}
 /*CABEÇALHO*/
 main {
     padding: 7vw;
@@ -224,4 +218,28 @@ footer div.f a{
 }
 body, main {
     padding: 0 !important;
+}
+@media only screen and (max-width: 780px){
+    section.titulo{
+        display: none;
+    }
+    section.dicas img{
+        max-width: 90%;
+        margin: 4vw auto 4vw auto;
+    }
+    section#operador h3{
+        font-weight: bold;
+    }
+    section#operador ul li{
+        margin: 2vw 0 2vw 0;
+    }
+    section#operador a{
+        font-size: 1.1rem;
+    }
+    main p{
+        font-size: 1.1rem;
+    }
+    main h3{
+        font-size: 1.5rem;
+    }
 }
