@@ -84,7 +84,9 @@ section.CAlimentos div.container ul.videos li {
     }
 
     section.BAlimentos p,
-    section.CAlimentos p {
+    section.CAlimentos p,
+    section.CAlimentos ul li 
+     {
         font-size: 1.1rem;
         margin: 2vw 0;
     }
