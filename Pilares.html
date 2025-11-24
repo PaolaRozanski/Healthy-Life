@@ -13,14 +13,15 @@
 </head>
 
 <body>
-    <header>
+        <header>
         <div class="abertura">
             <a href="index.html"><img src="scr/Logo.png" alt="logo"></a>
             <h1>Healthy Life</h1>
         </div>
-        <ul>
+        <div class="headerPc">
+ <ul>
             <li>
-                <a href="index.html">Início</a>
+                <a href="index.html" >Início</a>
                 <ul>
                     <li>
                         <a href="Referencias.html">Referências</a>
@@ -29,7 +30,7 @@
             </li>
 
             <li>
-                <a href="Pilares.html" class="MaleficiosDois">Pilares</a>
+                <a class="MaleficiosDois" href="Pilares.html">Pilares</a>
                 <ul>
                     <li>
                         <a href="Maleficios.html">Malefícios</a>
@@ -54,7 +55,6 @@
             <li>
                 <a href="questionario.html">Quizzz</a>
             </li>
-
             <li>
                 <a href="Receitas.html">Receitas</a>
                 <ul>
@@ -66,8 +66,27 @@
                     </li>
                 </ul>
             </li>
-
         </ul>
+
+        </div>
+       
+        <div class="headerCellphone">
+            <a href="index.html"><img src="scr/Logo.png" alt="logo"></a>
+            <h1>Pato Healthy</h1>
+            <div class="menu-icon" aria-label="Abrir menu" role="button" tabindex="0">
+                <span class="fa fa-bars" aria-hidden="true"></span>
+            </div>
+            <ul class="linksCellphone" aria-hidden="true">
+                <li class="close-btn" role="button" aria-label="Fechar menu" tabindex="0">
+                    <span class="fa fa-arrow-left" aria-hidden="true"></span>
+                </li>
+
+                <li><a href="index.html">Início</a></li>
+                <li><a href="Pilares.html">Pilares</a></li>
+                <li><a href="Maleficios.html">Malefícios</a></li>
+                <li><a href="beneficios.html">Benefícios</a></li>
+                <li><a href="Receitas.html">Receitas</a></li>
+            </ul>
     </header>
     <main class="geralPilares">
         <section class="titulo">
@@ -139,8 +158,9 @@
                         desidratado, veja alguns sintomas: Tontura, Fraqueza, Mal-Estar, Desmaio e Pele Seca<br>
                     </p>
                     </li>
-                    <li>
-                    <iframe width="560" height="315"
+
+            </ul>
+                                <iframe width="560" height="315"
                         src="https://www.youtube.com/embed/4C7qKYhAiMo?si=wOQmzwpqo0LClTtY&amp;start=178"
                         title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -150,8 +170,6 @@
                         title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </li>
-            </ul>
 
         </section>
         <section id="referencias">
@@ -239,6 +257,8 @@
         </div>
 
     </footer>
+
+        <script src="js/menu.js"></script>
 </body>
 
 </html>

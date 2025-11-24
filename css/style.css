@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Labrada:ital,wght@0,100..900;1,100..900&family=Martian+Mono:wght@100..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Traditional+Nushu:wght@300..700&display=swap');
+
 /* FORMATAÇÃO */
 html {
     background-color: #FFF7E9;
@@ -8,6 +9,7 @@ html {
 
 
 }
+
 main p {
     line-height: 3rem;
     text-align: justify !important;
@@ -29,6 +31,7 @@ header div.headerCellphone {
 main p {
     font-family: "Fira Sans", sans-serif !important;
 }
+
 header {
     background-color: #FFC573;
     font-size: 1.5rem;
@@ -80,19 +83,25 @@ header a {
     font-size: 1.2rem !important;
     font-family: "Martian Mono", monospace !important;
 }
-header a:hover, header a:focus, header a.active {
+
+header a:hover,
+header a:focus,
+header a.active {
     background: white !important;
     color: #FFC573 !important;
     cursor: pointer !important;
     text-decoration: none !important;
 }
+
 header ul {
     padding-top: 2vw;
     display: flex;
 }
 
 header li {
-    padding-right: 4vw;}
+    padding-right: 4vw;
+}
+
 .MaleficiosDois {
     color: #FFC573;
     background-color: white;
@@ -126,22 +135,26 @@ div.cardbox {
     padding-bottom: 5vw;
     border-radius: 50px;
 }
+
 div.cardbox h2 {
     font-size: 3.8rem;
     margin-bottom: 2vw;
     font-family: "Noto Traditional Nushu", sans-serif !important;
 }
+
 div.cardbox h3,
 div.cardbox p {
-    font-family: "Platypi", serif !important; 
+    font-family: "Platypi", serif !important;
     color: #2e2d2d;
     font-size: 1.2rem;
     font-weight: 600;
     line-height: 2rem;
 }
+
 div.cardbox h3 {
     margin-bottom: 0.3vw;
 }
+
 iframe {
     margin: 0 auto;
     margin-bottom: 1.5vw;
@@ -151,7 +164,7 @@ iframe {
 }
 
 /*FOOTER*/
-footer  {
+footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -238,7 +251,7 @@ footer div.f a {
 
 header ul li {
     position: relative;
-    
+
 }
 
 header ul li ul {
@@ -255,8 +268,8 @@ header ul li ul {
     gap: 5px;
 }
 
-header ul li:hover > ul,
-header ul li:focus-within > ul {
+header ul li:hover>ul,
+header ul li:focus-within>ul {
     opacity: 1;
     visibility: visible;
 }
@@ -281,21 +294,22 @@ header ul li ul li a:hover {
     color: white;
 }
 
-header ul li:hover > a,
-header ul li:focus-within > a {
+header ul li:hover>a,
+header ul li:focus-within>a {
     background: white !important;
     color: #FFC573 !important;
 }
 
 
 header ul li ul {
-    transition-delay: 0.3s; 
+    transition-delay: 0.3s;
 }
 
 
 /* ============================================== MEDIA ============================================== */
 
-html, body {
+html,
+body {
     max-width: 100vw;
     overflow-x: hidden;
     box-sizing: border-box;
@@ -308,12 +322,18 @@ html, body {
 }
 
 @media (max-width: 780px) {
+    section.titulo {
+        display: none;
+    }
+
     header div.abertura {
         display: none;
     }
-    header div.headerPc{
+
+    header div.headerPc {
         display: none;
     }
+
     header div.headerCellphone {
         display: flex;
         justify-content: space-between;
@@ -322,63 +342,136 @@ html, body {
         padding: 1rem 2rem;
         border-radius: 0 0 20px 20px;
     }
+
     header h1 {
         font-size: 1.5rem !important;
         font-family: "Noto Traditional Nushu", sans-serif !important;
         padding-left: 2vw;
         padding-right: 26vw;
     }
+
     header img {
         max-width: 50px;
     }
+
     header div.menu-icon {
         font-size: 2.3rem;
         color: white;
         cursor: pointer;
     }
+
     header a {
         padding: 0vw;
         margin: 0vw;
     }
-    header ul.linksCellphone {
-        display: none;
-    }
+
+/* menu mobile: oculto por padrão */
+header ul.linksCellphone {
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  height: 100vh;
+  width: 220px;
+
+  background: #FFC573;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 3rem 1.5rem;
+  gap: 1rem;
+
+  list-style: none;
+  display: none;      /* escondido até abrir */
+  z-index: 999999;
+  transform: translateX(100%); /* começa fora da tela */
+  transition: transform 300ms ease, opacity 300ms ease;
+  opacity: 0;
+}
+
+/* quando aberto */
+header ul.linksCellphone.open {
+  display: flex;
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* itens do menu em coluna */
+header ul.linksCellphone li {
+  width: 100%;
+}
+
+header ul.linksCellphone li a {
+  display: block;
+  width: 100%;
+  font-size: 1.4rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.6rem 0;
+}
+
+/* botão fechar (seta) alinhado à borda superior */
+header ul.linksCellphone li.close-btn {
+  align-self: flex-end;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+}
+header ul.linksCellphone li.close-btn span {
+  font-size: 1.6rem;
+  color: white;
+}
+
+/* acessibilidade: foco visível */
+.menu-icon:focus, header ul.linksCellphone li.close-btn:focus, header ul.linksCellphone a:focus {
+  outline: 3px solid rgba(255,255,255,0.3);
+  outline-offset: 2px;
+}
+
     div.cardbox p {
         font-size: 1rem;
-        
+
     }
+
     div.cardbox h3 {
         font-size: 1.5rem;
     }
+
     footer p,
     footer a {
         font-size: 1rem;
         line-height: 1.4rem;
     }
+
     footer ul li {
         display: none;
     }
+
     footer div#c p {
         display: none;
     }
+
     footer nav {
         text-align: center;
     }
+
     footer div.f {
-    flex: 0 0 100%;
-    order: 999;
-    text-align: center !important;
-    margin-top: 0.25rem;
-    padding-top: 0.25rem;
-}
-footer div#b {
-    align-items: center !important;
-    margin-bottom: 0.25rem;
-    display: flex;
-    justify-content: space-evenly;
-}
-footer div#b p {
-    margin-top: 3vw;
-    font-size: 0.9rem;
-}
+        flex: 0 0 100%;
+        order: 999;
+        text-align: center !important;
+        margin-top: 0.25rem;
+        padding-top: 0.25rem;
+    }
+
+    footer div#b {
+        align-items: center !important;
+        margin-bottom: 0.25rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    footer div#b p {
+        margin-top: 3vw;
+        font-size: 0.9rem;
+    }
 }
