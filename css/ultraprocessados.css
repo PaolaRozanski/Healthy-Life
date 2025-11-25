@@ -21,7 +21,15 @@ section.BAlimentos p {
     margin: 3vw 7vw 3vw 1vw;
     font-size: 2rem;
 }
-
+section.BAlimentos p.aa{
+    background: #FEE5C1;
+    text-align: center;
+    padding: 2vw;
+    border-radius: 20px;
+}
+h2#tituloCell {
+    padding-top: 6vw;
+}
 section.BAlimentos p.Fonte,
 section.BAlimentos p.Fonte a {
     font-size: 1.1rem;
