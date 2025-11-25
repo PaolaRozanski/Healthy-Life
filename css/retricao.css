@@ -1,0 +1,86 @@
+body {
+    background-color: #FFF7E9; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+}
+
+/* Main */
+main {
+    padding: 20px 7vw; 
+    font-size: 2rem;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center; 
+}
+
+
+section.Restricoes {
+    padding: 20px; 
+}
+
+
+.Restricoes h1 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: #414183; 
+}
+
+
+.Restricoes ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 18px;
+    padding: 0; 
+}
+
+
+.Restricoes ul li {
+    display: flex;
+    justify-content: center; 
+}
+
+.Restricoes ul li button {
+    background-color: #FEE5C1; 
+    border: 3px solid #4B3F72; 
+    border-radius: 20px;
+    padding: 20px; 
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #4B3F72; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    width: 100%; 
+}
+
+/* Efeito hover */
+.Restricoes ul li button:hover {
+    background-color: #414183; 
+    color: white; 
+    border-color: #414183; 
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    main {
+        padding: 20px 3vw;
+        font-size: 1.2rem;
+    }
+
+    .Restricoes h1 {
+        font-size: 2rem; 
+    }
+
+    .Restricoes ul {
+        grid-template-columns: 1fr; 
+    }
+
+    .Restricoes ul li button {
+        padding: 15px; 
+        font-size: 1rem; 
+    }
+}
