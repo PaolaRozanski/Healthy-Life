@@ -142,6 +142,12 @@ div.cardbox {
     padding-bottom: 5vw;
     border-radius: 50px;
 }
+section.titulo p, section.titulo h2{
+    padding: 0 7vw 0 0;
+}
+section.frutas div.galeria div.galeria-row div.item p{
+    font-size: 1.5rem;
+}
 
 div.cardbox h2 {
     font-size: 3.8rem;
