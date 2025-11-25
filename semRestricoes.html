@@ -27,431 +27,109 @@
             display: none;
         }
 
-        main section.pg1 {
+        main section.pg2 {
             display: block;
         }
     </style>
     <main>
-        <section class="pg1">
-            <h1>Bem Vindo(a)</h1>
-            <p>Qual é o seu nome?</p>
-            <form action="#">
-                <input type="text" placeholder="Digite seu nome aqui">
-                <button type="button" onclick="vaiParaPg2()"> Próximo </button>
-            </form>
-        </section>
         <section class="pg2">
-            <h1><span>Fulano</span>, Qual refeiçoes vc deseja?</h1>
+            <h1>Qual refeição você deseja?</h1>
             <form action="#">
-                <label for="turma"> Turma </label>
-                <label> <input type="radio" value="1" name="Estudante" onclick="vaiParaPg2()">cafe </label>
-                <label> <input type="radio" value="2" name="Estudante" onclick="vaiParaPg3()">almoco </label>
-                <button type="button">Próximo</button>
+                <label> 
+                    <input type="radio" value="1" name="refeicao" onclick="vaiParaPg3()"> Café
+                </label>
+                <label> 
+                    <input type="radio" value="2" name="refeicao" onclick="vaiParaPg4()"> Almoço 
+                </label>
             </form>
         </section>
         <section class="pg3">
             <h1>Algumas receitas que você pode adicionar em sua rotina</h1>
-
             <ul class="lista-receitas">
                 <li>
-                    <a
-                        href="https://ndmais.com.br/gastronomia/receitas/torrada-de-ovo-na-frigideira-em-3-minutos-esqueca-a-crepioca/#google_vignette"><img
-                            src="scr/PaginaReceita/torrada-de-ovo.jpg" alt=""></a>
-                    <a
-                        href="https://ndmais.com.br/gastronomia/receitas/torrada-de-ovo-na-frigideira-em-3-minutos-esqueca-a-crepioca/#google_vignette">
+                    <a href="https://ndmais.com.br/gastronomia/receitas/torrada-de-ovo-na-frigideira-em-3-minutos-esqueca-a-crepioca/#google_vignette">
+                        <img src="scr/PaginaReceita/torrada-de-ovo.jpg" alt="">
+                    </a>
+                    <a href="https://ndmais.com.br/gastronomia/receitas/torrada-de-ovo-na-frigideira-em-3-minutos-esqueca-a-crepioca/#google_vignette">
                         <h2>Torrada de Ovo</h2>
                     </a>
                 </li>
                 <li>
-                    <a
-                        href="https://thaisaleal.com.br/receita/receitas-de-cafe-da-manha-rapidos-saudaveis-e-diferentes/"><img
-                            src="scr/PaginaReceita/tapiovo.jpg
-                " alt=""></a>
-                    <a
-                        href="https://thaisaleal.com.br/receita/receitas-de-cafe-da-manha-rapidos-saudaveis-e-diferentes/">
+                    <a href="https://thaisaleal.com.br/receita/receitas-de-cafe-da-manha-rapidos-saudaveis-e-diferentes/">
+                        <img src="scr/PaginaReceita/tapiovo.jpg" alt="">
+                    </a>
+                    <a href="https://thaisaleal.com.br/receita/receitas-de-cafe-da-manha-rapidos-saudaveis-e-diferentes/">
                         <h2>Tapiovo</h2>
                     </a>
                 </li>
                 <li>
-                    <a
-                        href="https://granjasantajoana.com.br/blog/7-receitas-incriveis-com-ovos-para-um-cafe-da-manha-proteico"><img
-                            src="scr/PaginaReceita/omelete-de-legumes.jpg" alt=""></a>
-                    <a
-                        href="https://granjasantajoana.com.br/blog/7-receitas-incriveis-com-ovos-para-um-cafe-da-manha-proteico">
+                    <a href="https://granjasantajoana.com.br/blog/7-receitas-incriveis-com-ovos-para-um-cafe-da-manha-proteico">
+                        <img src="scr/PaginaReceita/omelete-decondition-legumes.jpg" alt="">
+                    </a>
+                    <a href="https://granjasantajoana.com.br/blog/7-receitas-incriveis-com-ovos-para-um-cafe-da-manha-proteico">
                         <h2>Omelete de Legumes</h2>
                     </a>
                 </li>
                 <li>
-                    <a
-                        href="https://receitas.globo.com/regionais/rpc/estudio-c/receita-saudavel-e-rapida-crepioca-fit.ghtml"><img
-                            src="scr/PaginaReceita/crepioca-fit.jpg" alt=""></a>
-                    <a
-                        href="https://receitas.globo.com/regionais/rpc/estudio-c/receita-saudavel-e-rapida-crepioca-fit.ghtml">
+                    <a href="https://receitas.globo.com/regionais/rpc/estudio-c/receita-saudavel-e-rapida-crepioca-fit.ghtml">
+                        <img src="scr/PaginaReceita/crepioca-fit.jpg" alt="">
+                    </a>
+                    <a href="https://receitas.globo.com/regionais/rpc/estudio-c/receita-saudavel-e-rapida-crepioca-fit.ghtml">
                         <h2>Crepioca fit</h2>
                     </a>
                 </li>
-                <li>
-                    <a href="frutas.html"><img src="scr/frutas.jpg" alt=""></a>
-                    <a href="frutas.html">
-                        <h2>Receitas Com Frutas</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://wickbold.com.br/receita/sanduiche-de-ricota-rucula-e-atum/"><img
-                            src="scr/sanduiche-com-ovo.jpg" alt=""></a>
-                    <a href="https://wickbold.com.br/receita/sanduiche-de-ricota-rucula-e-atum/">
-                        <h2>Sanduíche com Ovo</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://blog.gsuplementos.com.br/sanduiche-natural-fit/"><img
-                            src="scr/sanduiche-natural-fit.jpg" alt=""></a>
-                    <a href="https://blog.gsuplementos.com.br/sanduiche-natural-fit/">
-                        <h2>Sanduíche Natural Fit</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://wickbold.com.br/receita/pao-grao-sabor-com-geleia-de-damasco/"><img
-                            src="scr/pao-com-geleia-de-damasco.jpg" alt=""></a>
-                    <a href="https://wickbold.com.br/receita/pao-grao-sabor-com-geleia-de-damasco/">
-                        <h2>Pão com Geleia de Damasco</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://wickbold.com.br/receita/sanduiche-de-pasta-de-amendoim-e-banana/"><img
-                            src="scr/sanduiche-de-pastaDeAmendoim-e-banana.jpg" alt=""></a>
-                    <a href="https://wickbold.com.br/receita/sanduiche-de-pasta-de-amendoim-e-banana/">
-                        <h2>Sanduíche de Pasta de Amendoim e Banana</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://wickbold.com.br/receita/sanduiche-de-pasta-de-amendoim-e-banana/"><img
-                            src="scr/tudoDeMorango/iogurte-natural-sem-lactose.jpg" alt=""></a>
-                    <a href="https://wickbold.com.br/receita/sanduiche-de-pasta-de-amendoim-e-banana/">
-                        <h2>Iogurte Natural sem Lactose</h2>
-                    </a>
-                </li>
-                <li>
-                    <a
-                        href="https://www.terra.com.br/vida-e-estilo/degusta/receitas/6-receitas-com-iogurte-natural-para-um-cafe-da-manha-incrivel,4235803d699c071a7959422cb2eec404msgk7sjg.html"><img
-                            src="scr/tudoDeLegumes/salada-de-frutas-com-iogurte.jpg" alt=""></a>
-                    <a
-                        href="https://www.terra.com.br/vida-e-estilo/degusta/receitas/6-receitas-com-iogurte-natural-para-um-cafe-da-manha-incrivel,4235803d699c071a7959422cb2eec404msgk7sjg.html">
-                        <h2>Salada de Frutas com Iogurte</h2>
-                    </a>
-                </li>
-                <li>
-                    <a
-                        href="https://www.terra.com.br/vida-e-estilo/degusta/receitas/6-receitas-com-iogurte-natural-para-um-cafe-da-manha-incrivel,4235803d699c071a7959422cb2eec404msgk7sjg.html"><img
-                            src="scr/tudoDeMorango/Iogurte-de-morango-saudavel.jpg" alt=""></a>
-                    <a
-                        href="https://www.terra.com.br/vida-e-estilo/degusta/receitas/6-receitas-com-iogurte-natural-para-um-cafe-da-manha-incrivel,4235803d699c071a7959422cb2eec404msgk7sjg.html">
-                        <h2>Iogurte de Morango</h2>
-                    </a>
-                </li>
-                <li>
-                    <a
-                        href="https://www.terra.com.br/vida-e-estilo/degusta/receitas/6-receitas-com-iogurte-natural-para-um-cafe-da-manha-incrivel,4235803d699c071a7959422cb2eec404msgk7sjg.html#google_vignette"><img
-                            src="scr/Pao-de-Queijo-com-Iogurte.jpg" alt=""></a>
-                    <a
-                        href="https://www.terra.com.br/vida-e-estilo/degusta/receitas/6-receitas-com-iogurte-natural-para-um-cafe-da-manha-incrivel,4235803d699c071a7959422cb2eec404msgk7sjg.html#google_vignette">
-                        <h2>Pão de Queijo com Iogurte</h2>
-                    </a>
-                </li>
-                <li>
-                    <a
-                        href="https://www.terra.com.br/vida-e-estilo/degusta/receitas/6-receitas-com-iogurte-natural-para-um-cafe-da-manha-incrivel,4235803d699c071a7959422cb2eec404msgk7sjg.html"><img
-                            src="scr/bolo-de-iogurte-fofinho.jpg" alt=""></a>
-                    <a
-                        href="https://www.terra.com.br/vida-e-estilo/degusta/receitas/6-receitas-com-iogurte-natural-para-um-cafe-da-manha-incrivel,4235803d699c071a7959422cb2eec404msgk7sjg.html">
-                        <h2>Bolo de Iogurte na Airfryer</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://panelinha.com.br/receita/bisteca-grelhada-com-paprica-e-salvia"><img
-                            src="scr/tudoDeCarne/bisteca-grelhada.jpg" alt=""></a>
-                    <a href="https://panelinha.com.br/receita/bisteca-grelhada-com-paprica-e-salvia">
-                        <h2>Bisteca Grelhada</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://panelinha.com.br/receita/carne-de-panela-com-molho-rustico"><img
-                            src="scr/tudoDeCarne/carne-de-panela.jpg" alt=""></a>
-                    <a href="https://panelinha.com.br/receita/carne-de-panela-com-molho-rustico">
-                        <h2>Carne de Panela</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://panelinha.com.br/receita/carne-moida-com-vagem"><img
-                            src="scr/tudoDeCarne/carne-moida.jpg" alt=""></a>
-                    <a href="https://panelinha.com.br/receita/carne-moida-com-vagem">
-                        <h2>Carne Moída</h2>
-                    </a>
-                </li>
-                <li>
-                    <a
-                        href="https://receitas.globo.com/tipos-de-prato/aves/sobrecoxas-de-frango-ao-forno-da-nonna-4ee0dcb73a96252dab00004b.ghtml"><img
-                            src="scr/sobre-coxa-assada.jpg" alt=""></a>
-                    <a
-                        href="https://receitas.globo.com/tipos-de-prato/aves/sobrecoxas-de-frango-ao-forno-da-nonna-4ee0dcb73a96252dab00004b.ghtml">
-                        <h2>Sobre Coxa Assada</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://nutrium.com/p/gabrielbanzinni/recipes/318777"><img
-                            src="scr/tudoDeCarne/tilapia-assada.jpg" alt=""></a>
-                    <a href="https://nutrium.com/p/gabrielbanzinni/recipes/318777">
-                        <h2>Tilápia Assada</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://panelinha.com.br/receita/bife-grelhado-com-vinagrete"><img
-                            src="scr/tudoDeCarne/bife-grelhado.jpg" alt=""></a>
-                    <a href="https://panelinha.com.br/receita/bife-grelhado-com-vinagrete">
-                        <h2>Bife Grelhado</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.receiteria.com.br/receita/hamburguer-de-lentilha-facil/"><img
-                            src="scr/hamburgue-de-lentilha.jpg" alt=""></a>
-                    <a href="https://www.receiteria.com.br/receita/hamburguer-de-lentilha-facil/">
-                        <h2>Hambúrguer de Lentilha</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://receitanatureba.com/tofu-grelhado/"><img src="scr/tudoDeLegumes/tofu-grelhado.jpg"
-                            alt=""></a>
-                    <a href="https://receitanatureba.com/tofu-grelhado/">
-                        <h2>Tofu Grelhado</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://cookpad.com/br/receitas/16962860"><img
-                            src="scr/tudoDeCarne/almondega-de-berinjela.jpg" alt=""></a>
-                    <a href="https://cookpad.com/br/receitas/16962860">
-                        <h2>Almondega de Berinjela</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://panelinha.com.br/receita/macarrao-com-molho-de-tomate-rapido"><img
-                            src="scr/macarrao.jpg" alt=""></a>
-                    <a href="https://panelinha.com.br/receita/macarrao-com-molho-de-tomate-rapido">
-                        <h2>Macarrão</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://panelinha.com.br/receita/risoto-primavera"><img src="scr/risoto.jpg" alt=""></a>
-                    <a href="https://panelinha.com.br/receita/risoto-primavera">
-                        <h2>Risoto</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://panelinha.com.br/receita/arroz-branco-para-4"><img src="scr/arroz.jpg" alt=""></a>
-                    <a href="https://panelinha.com.br/receita/arroz-branco-para-4">
-                        <h2>Arroz</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://panelinha.com.br/receita/arroz-integral-com-abobrinha"><img
-                            src="scr/arroz-integral.jpg" alt=""></a>
-                    <a href="https://panelinha.com.br/receita/arroz-integral-com-abobrinha">
-                        <h2>Arroz Integral</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://panelinha.com.br/receita/feijao-caseiro"><img src="scr/feijao-carioca.jpg"
-                            alt=""></a>
-                    <a href="https://panelinha.com.br/receita/feijao-caseiro">
-                        <h2>Feijão Carioca</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://panelinha.com.br/receita/feijao-preto-com-abobora-couve"><img
-                            src="scr/feijao-preto.jpg" alt=""></a>
-                    <a href="https://panelinha.com.br/receita/feijao-preto-com-abobora-couve">
-                        <h2>Feijão Preto</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://receitanatureba.com/lasanha-vegetariana/"><img
-                            src="scr/tudoDeLegumes/lasanha-vegetariana.jpg" alt=""></a>
-                    <a href="https://receitanatureba.com/lasanha-vegetariana/">
-                        <h2>Lasanha Vegetariana</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.tudogostoso.com.br/receita/107124-file-de-frango-grelhado-com-limao.html"><img
-                            src="scr/tudoDeCarne/Frango-grelhado.jpg" alt=""></a>
-                    <a href="https://www.tudogostoso.com.br/receita/107124-file-de-frango-grelhado-com-limao.html">
-                        <h2>Frango Grelhado</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://receitanatureba.com/peixe-grelhado/"><img src="scr/tudoDeCarne/peixe-grelhado.jpg"
-                            alt=""></a>
-                    <a href="https://receitanatureba.com/peixe-grelhado/">
-                        <h2>Peixe Grelhado</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.tudogostoso.com.br/receita/71325-almondega-light-saborosa.html"><img
-                            src="scr/tudoDeCarne/almondega-light.jpg" alt=""></a>
-                    <a href="https://www.tudogostoso.com.br/receita/71325-almondega-light-saborosa.html">
-                        <h2>Almôndega Light</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.seara.com.br/receita/estrogonofe-saudavel/"><img
-                            src="scr/tudoDeCarne/strogonoff.jpg" alt=""></a>
-                    <a href="https://www.seara.com.br/receita/estrogonofe-saudavel/">
-                        <h2>Strogonoff</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.receiteria.com.br/receita/strogonoff-fit-com-iogurte/"><img
-                            src="scr/tudoDeCarne/strogonoff-com-iogurte.jpg" alt=""></a>
-                    <a href="https://www.receiteria.com.br/receita/strogonoff-fit-com-iogurte/">
-                        <h2>Strogonoff com Iogurte</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.receiteria.com.br/receita/frango-com-legumes/"><img
-                            src="scr/tudoDeLegumes/legumes-com-frango.jpg" alt=""></a>
-                    <a href="https://www.receiteria.com.br/receita/frango-com-legumes/">
-                        <h2>Legumes com Frango</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.forksoverknives.com/recipes/vegan-baked-stuffed/cathy-fishers-shepherds-pie/"><img
-                            src="scr/tudoDeCarne/escondidinho.jpg" alt=""></a>
-                    <a href="https://www.forksoverknives.com/recipes/vegan-baked-stuffed/cathy-fishers-shepherds-pie/">
-                        <h2>Escondidinho</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://receitanatureba.com/pure-de-batata-doce-fit/"><img
-                            src="scr/pure-de-batata-doce-fit.jpg" alt=""></a>
-                    <a href="https://receitanatureba.com/pure-de-batata-doce-fit/">
-                        <h2>Purê de Batata Doce Fit</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://blog.gsuplementos.com.br/pure-de-batata-light/"><img
-                            src="scr/pure-de-batata-light.jpg" alt=""></a>
-                    <a href="https://blog.gsuplementos.com.br/pure-de-batata-light/">
-                        <h2>Purê de Batata Light</h2>
-                    </a>
-                </li>
-                <li>
-                    <a
-                        href="https://www.terra.com.br/vida-e-estilo/degusta/receitas/5-receitas-saudaveis-ricas-em-carboidrato,f3e05b2c7126629e26f9ce02c4f1ff80w2fspmz3.html"><img
-                            src="scr/pure-de-batata-doce-laranja.jpg" alt=""></a>
-                    <a
-                        href="https://www.terra.com.br/vida-e-estilo/degusta/receitas/5-receitas-saudaveis-ricas-em-carboidrato,f3e05b2c7126629e26f9ce02c4f1ff80w2fspmz3.html">
-                        <h2>Purê de Batata Doce Laranja</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.receiteria.com.br/receita/legumes-refogados/"><img
-                            src="scr/tudoDeLegumes/legumes-refogados.jpg" alt=""></a>
-                    <a href="https://www.receiteria.com.br/receita/legumes-refogados/">
-                        <h2>Legumes Refogados</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.receiteria.com.br/receita/legumes-salteados/"><img
-                            src="scr/tudoDeLegumes/legumes-salteados.jpg" alt=""></a>
-                    <a href="https://www.receiteria.com.br/receita/legumes-salteados/">
-                        <h2>Legumes Salteados</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.receiteria.com.br/receita/salada-de-repolho-refogado/"><img
-                            src="scr/tudoDeLegumes/salada-de-repolho-refogado.jpg" alt=""></a>
-                    <a href="https://www.receiteria.com.br/receita/salada-de-repolho-refogado/">
-                        <h2>Salada de Repolho Refogado</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.receiteria.com.br/receita/brocolis-refogado/"><img
-                            src="scr/brocolis-refogado.jpg" alt=""></a>
-                    <a href="https://www.receiteria.com.br/receita/brocolis-refogado/">
-                        <h2>Brócolis refogado</h2>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.receiteria.com.br/receita/abobora-refogada/"><img
-                            src="scr/tudoDeLegumes/abobora-refogada.jpg" alt=""></a>
-                    <a href="https://www.receiteria.com.br/receita/abobora-refogada/">
-                        <h2>Abóbora Refogada</h2>
-                    </a>
-                </li>
             </ul>
-
-            </select> <button type="button" onclick="vaiParaPg4()">Próximo</button>
         </section>
         <section class="pg4">
             <h1>Qual turma você pertence?</h1>
- <h1>Algumas receitas que você pode adicionar em sua rotina</h1>
-
+            <h1>Algumas receitas que você pode adicionar em sua rotina</h1>
             <ul class="lista-receitas">
                 <li>
-                    <a
-                        href="https://ndmais.com.br/gastronomia/receitas/torrada-de-ovo-na-frigideira-em-3-minutos-esqueca-a-crepioca/#google_vignette"><img
-                            src="scr/PaginaReceita/torrada-de-ovo.jpg" alt=""></a>
-                    <a
-                        href="https://ndmais.com.br/gastronomia/receitas/torrada-de-ovo-na-frigideira-em-3-minutos-esqueca-a-crepioca/#google_vignette">
+                    <a href="https://ndmais.com.br/gastronomia/receitas/torrada-de-ovo-na-frigideira-em-3-minutos-esqueca-a-crepioca/#google_vignette">
+                        <img src="scr/PaginaReceita/torrada-de-ovo.jpg" alt="">
+                    </a>
+                    <a href="https://ndmais.com.br/gastronomia/receitas/torrada-de-ovo-na-frigideira-em-3-minutos-esqueca-a-crepioca/#google_vignette">
                         <h2>Torrada de Ovo</h2>
                     </a>
                 </li>
                 <li>
-                    <a
-                        href="https://thaisaleal.com.br/receita/receitas-de-cafe-da-manha-rapidos-saudaveis-e-diferentes/"><img
-                            src="scr/PaginaReceita/tapiovo.jpg
-                " alt=""></a>
-                    <a
-                        href="https://thaisaleal.com.br/receita/receitas-de-cafe-da-manha-rapidos-saudaveis-e-diferentes/">
+                    <a href="https://thaisaleal.com.br/receita/receitas-de-cafe-da-manha-rapidos-saudaveis-e-diferentes/">
+                        <img src="scr/PaginaReceita/tapiovo.jpg" alt="">
+                    </a>
+                    <a href="https://thaisaleal.com.br/receita/receitas-de-cafe-da-manha-rapidos-saudaveis-e-diferentes/">
                         <h2>Tapiovo</h2>
                     </a>
                 </li>
             </ul>
-
-            </form>
         </section>
     </main>
-    <script type="text/javascript"> let nome = ""; let turma = "";
-        const pg1 = document.querySelector("section.pg1");
+    <script type="text/javascript">
         const pg2 = document.querySelector("section.pg2");
         const pg3 = document.querySelector("section.pg3");
         const pg4 = document.querySelector("section.pg4");
 
-        function vaiParaPg2() {
-            pg1.style.display = "none"; pg2.style.display = "block";
-            nome = document.querySelector("section.pg1 input").value;
-            document.querySelector("section.pg2 h1 span").innerHTML = nome;
+        function vaiParaPg3() {
+            let refeicao = document.querySelector("section.pg2 input:checked").value;
+            if (refeicao == 1) {
+                pg2.style.display = "none";
+                pg3.style.display = "block";
+            } else {
+                pg2.style.display = "none";
+                pg4.style.display = "block";
+            }
+        }
 
-            let estudante = document.querySelector("section.pg2 input:checked").value
-            if (estudante == 1) {
-                pg2.style.display = "none"; pg3.style.display = "block";
+        function vaiParaPg4() {
+            let refeicao = document.querySelector("section.pg2 input:checked").value;
+            if (refeicao == 1) {
+                pg2.style.display = "none";
+                pg3.style.display = "block";
             } else {
-                pg2.style.display = "none"; pg4.style.display = "block"
+                pg2.style.display = "none";
+                pg4.style.display = "block";
             }
-
-        } function vaiParaPg3() {
-            let estudante = document.querySelector("section.pg2 input:checked").value
-            if (estudante == 1) {
-                pg2.style.display = "none"; pg3.style.display = "block";
-            } else {
-                pg2.style.display = "none"; pg4.style.display = "block"
-            }
-        } function vaiParaPg4() {
-            let estudante = document.querySelector("section.pg2 input:checked").value
-            if (estudante == 1) {
-                pg2.style.display = "none"; pg3.style.display = "block";
-            } else {
-                pg2.style.display = "none"; pg4.style.display = "block"
-            }
-        }</script>
+        }
+    </script>
 </body>
 
 </html>

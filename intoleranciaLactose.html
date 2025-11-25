@@ -8,7 +8,128 @@
 </head>
 
 <body>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            border: none;
+            list-style: none;
+            text-decoration: none;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
 
+        main {
+            text-align: center;
+        }
+
+        main section {
+            display: none;
+        }
+
+        main section.pg2 {
+            display: block;
+        }
+    </style>
+    <main>
+        <section class="pg2">
+            <h1>Qual refeição você deseja?</h1>
+            <form action="#">
+                <label> 
+                    <input type="radio" value="1" name="refeicao" onclick="vaiParaPg3()"> Café
+                </label>
+                <label> 
+                    <input type="radio" value="2" name="refeicao" onclick="vaiParaPg4()"> Almoço 
+                </label>
+            </form>
+        </section>
+        <section class="pg3">
+            <h1>Algumas receitas que você pode adicionar em sua rotina</h1>
+            <ul class="lista-receitas">
+                <li>
+                    <a href="https://ndmais.com.br/gastronomia/receitas/torrada-de-ovo-na-frigideira-em-3-minutos-esqueca-a-crepioca/#google_vignette">
+                        <img src="scr/PaginaReceita/torrada-de-ovo.jpg" alt="">
+                    </a>
+                    <a href="https://ndmais.com.br/gastronomia/receitas/torrada-de-ovo-na-frigideira-em-3-minutos-esqueca-a-crepioca/#google_vignette">
+                        <h2>Torrada de Ovo</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://thaisaleal.com.br/receita/receitas-de-cafe-da-manha-rapidos-saudaveis-e-diferentes/">
+                        <img src="scr/PaginaReceita/tapiovo.jpg" alt="">
+                    </a>
+                    <a href="https://thaisaleal.com.br/receita/receitas-de-cafe-da-manha-rapidos-saudaveis-e-diferentes/">
+                        <h2>Tapiovo</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://granjasantajoana.com.br/blog/7-receitas-incriveis-com-ovos-para-um-cafe-da-manha-proteico">
+                        <img src="scr/PaginaReceita/omelete-decondition-legumes.jpg" alt="">
+                    </a>
+                    <a href="https://granjasantajoana.com.br/blog/7-receitas-incriveis-com-ovos-para-um-cafe-da-manha-proteico">
+                        <h2>Omelete de Legumes</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://receitas.globo.com/regionais/rpc/estudio-c/receita-saudavel-e-rapida-crepioca-fit.ghtml">
+                        <img src="scr/PaginaReceita/crepioca-fit.jpg" alt="">
+                    </a>
+                    <a href="https://receitas.globo.com/regionais/rpc/estudio-c/receita-saudavel-e-rapida-crepioca-fit.ghtml">
+                        <h2>Crepioca fit</h2>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="pg4">
+            <h1>Qual turma você pertence?</h1>
+            <h1>Algumas receitas que você pode adicionar em sua rotina</h1>
+            <ul class="lista-receitas">
+                <li>
+                    <a href="https://ndmais.com.br/gastronomia/receitas/torrada-de-ovo-na-frigideira-em-3-minutos-esqueca-a-crepioca/#google_vignette">
+                        <img src="scr/PaginaReceita/torrada-de-ovo.jpg" alt="">
+                    </a>
+                    <a href="https://ndmais.com.br/gastronomia/receitas/torrada-de-ovo-na-frigideira-em-3-minutos-esqueca-a-crepioca/#google_vignette">
+                        <h2>Torrada de Ovo</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://thaisaleal.com.br/receita/receitas-de-cafe-da-manha-rapidos-saudaveis-e-diferentes/">
+                        <img src="scr/PaginaReceita/tapiovo.jpg" alt="">
+                    </a>
+                    <a href="https://thaisaleal.com.br/receita/receitas-de-cafe-da-manha-rapidos-saudaveis-e-diferentes/">
+                        <h2>Tapiovo</h2>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <script type="text/javascript">
+        const pg2 = document.querySelector("section.pg2");
+        const pg3 = document.querySelector("section.pg3");
+        const pg4 = document.querySelector("section.pg4");
+
+        function vaiParaPg3() {
+            let refeicao = document.querySelector("section.pg2 input:checked").value;
+            if (refeicao == 1) {
+                pg2.style.display = "none";
+                pg3.style.display = "block";
+            } else {
+                pg2.style.display = "none";
+                pg4.style.display = "block";
+            }
+        }
+
+        function vaiParaPg4() {
+            let refeicao = document.querySelector("section.pg2 input:checked").value;
+            if (refeicao == 1) {
+                pg2.style.display = "none";
+                pg3.style.display = "block";
+            } else {
+                pg2.style.display = "none";
+                pg4.style.display = "block";
+            }
+        }
+    </script>
 </body>
 
 </html>
