@@ -7,32 +7,90 @@
     <title>Formulario</title>
         <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/receita.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-            border: none;
-            list-style: none;
-            text-decoration: none;
-            box-sizing: border-box;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
+   <header>
+        <div class="abertura">
+            <a href="index.html"><img src="scr/Logo.png" alt="logo"></a>
+            <h1>Healthy Life</h1>
+        </div>
+        <div class="headerPc">
+            <ul>
+                <li>
+                    <a href="index.html">Início</a>
+                    <ul>
+                        <li>
+                            <a href="Referencias.html">Referências</a>
+                        </li>
+                    </ul>
+                </li>
 
-        main {
-            text-align: center;
-        }
+                <li>
+                    <a href="Pilares.html">Pilares</a>
+                    <ul>
+                        <li>
+                            <a href="Maleficios.html">Malefícios</a>
+                        </li>
+                        <li>
+                            <a href="beneficios.html">Benefícios</a>
+                        </li>
+                        <li>
+                            <a href="Dicas.html">Dicas</a>
+                        </li>
+                    </ul>
+                </li>
 
-        main section {
-            display: none;
-        }
+                <li>
+                    <a href="SobreNós.html">Sobre Nós</a>
+                    <ul>
+                        <li>
+                            <a href="sopreoProjeto.html">Sobre Projeto</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Restricoes.html">Questionário</a>
+                </li>
+                <li>
+                    <a class="MaleficiosDois"  href="Receitas.html">Receitas</a>
+                    <ul>
+                        <li>
+                            <a href="Receitas.html">Receitas</a>
+                        </li>
+                        <li>
+                            <a href="frutas.html">Frutas</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
 
-        main section.pg2 {
-            display: block;
-        }
-    </style>
+        </div>
+
+        <div class="headerCellphone">
+            <a href="index.html"><img src="scr/Logo.png" alt="logo"></a>
+            <h1>Pato Healthy</h1>
+            <div class="menu-icon" aria-label="Abrir menu" role="button" tabindex="0">
+                <span class="fa fa-bars" aria-hidden="true"></span>
+            </div>
+            <ul class="linksCellphone" aria-hidden="true">
+                <li class="close-btn" role="button" aria-label="Fechar menu" tabindex="0">
+                    <span class="fa fa-arrow-left" aria-hidden="true"></span>
+                </li>
+
+                <li id="prim"><a href="index.html">Início</a></li>
+                <li><a href="Pilares.html">Pilares</a></li>
+                <li><a href="Maleficios.html">Malefícios</a></li>
+                <li><a href="beneficios.html">Benefícios</a></li>
+                <li><a href="Receitas.html">Receitas</a></li>
+                <li><a href="Dicas.html">Dicas</a></li>
+                <li><a href="SobreNós.html">Sobre Nós</a></li>
+                <li><a href="Restricoes.html">Questionário</a></li>
+                <li id="ult"><a href="sopreoProjeto.html">Sobre Projeto</a></li>
+            </ul>
+            </div>
+    </header>
     <main>
         <section class="pg2">
             <h1>Qual refeição você deseja?</h1>
