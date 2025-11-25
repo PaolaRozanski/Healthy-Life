@@ -9,7 +9,7 @@ section ul.lista-receitas {
 
 section ul.lista-receitas li {
     text-align: center;
-    flex: 0 1 250px; /* fixa largura */
+    flex: 0 1 250px;
     max-width: 250px;
     display: flex;
     flex-direction: column;
@@ -18,8 +18,8 @@ section ul.lista-receitas li {
 }
 
 section ul.lista-receitas img {
-    width: 220px;      /* largura fixa */
-    height: 220px;     /* altura fixa */
+    width: 220px;      
+    height: 220px;     
     border-radius: 10px;
     object-fit: cover;
     transition: transform 0.3s ease;
@@ -56,4 +56,7 @@ section ul.lista-receitas img{
     width: 30vw;
     height: 30vw;
 }    
+}
+h2#tituloCell {
+    padding-top: 6vw;
 }

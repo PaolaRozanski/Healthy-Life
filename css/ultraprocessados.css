@@ -1,104 +1,119 @@
-
 section.titulo p {
-        padding: 0vw 7vw 0vw 0vw;
+    padding: 0 7vw 0 0;
 }
+
 main {
     padding: 0 7vw;
     font-size: 2rem;
 }
+
+section.BAlimentos {
+    padding: 0 7vw;
+}
+
 section.BAlimentos img {
     margin: 2vw 0 1vw 10vw;
     border-radius: 25px;
     width: 70%;
 }
-section.BAlimentos {
-    padding: 0 7vw;
-}
+
 section.BAlimentos p {
     margin: 3vw 7vw 3vw 1vw;
     font-size: 2rem;
 }
 
-section.CAlimentos p {
-    margin: 2vw 0 2vw 0;
-    font-size: 2rem;
+section.BAlimentos p.Fonte,
+section.BAlimentos p.Fonte a {
+    font-size: 1.1rem;
+}
+
+section.CAlimentos {
+    padding: 0 7vw;
 }
 
 section.CAlimentos h3 {
-    margin: 2vw 0 2vw 0;
+    margin: 2vw 0;
     font-weight: bold;
     font-size: 3rem;
 }
-.CAlimentos {
-    padding-left: 7vw;
-    padding-right: 7vw;
+
+section.CAlimentos p {
+    margin: 2vw 0;
+    font-size: 2rem;
 }
-section.CAlimentos ul li{
+
+section.CAlimentos ul li {
     list-style-type: disc;
-}
-section.CAlimentos  div.container ul.videos li {
-    display: flex;
-    text-align: center;
-    margin: 2vw 1vw 2vw 1vw;
 }
 
 section.CAlimentos div.container ul.videos {
     display: flex;
 }
 
-.container ul.videos li iframe {
-    width: 100%;      
-    height: auto;     
-    aspect-ratio: 16 / 9;  
-    border: none;     
-    max-width: 1200px;  
-    margin: 0 auto;    
-    display: block;
-     flex: 1 1 300px;
+section.CAlimentos div.container ul.videos li {
+    display: flex;
+    text-align: center;
+    margin: 2vw 1vw;
 }
 
-
+.container ul.videos li iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: none;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+    flex: 1 1 300px;
+}
 
 @media (max-width: 768px) {
     main {
-        padding: 0 3vw; 
-        font-size: 1.1rem; 
+        padding: 0 3vw;
+        font-size: 1.1rem;
     }
 
-    section.titulo  {
+    section.titulo {
         display: none;
     }
 
     section.BAlimentos img {
-        width: 90%; 
-        margin: 2vw auto; 
-        display: block; 
+        width: 90%;
+        margin: 2vw auto;
+        display: block;
     }
 
     section.BAlimentos p,
-    section.CAlimentos p {
-        font-size: 1.5rem; 
-        margin: 2vw 0; 
+    section.CAlimentos p,
+    section.CAlimentos ul li 
+     {
+        font-size: 1.1rem;
+        margin: 2vw 0;
     }
 
     section.CAlimentos h3 {
-        font-size: 2rem; 
+        font-size: 2rem;
     }
 
     section.CAlimentos ul {
-        padding-left: 1.5rem; 
+        padding-left: 1.5rem;
     }
 
     section.CAlimentos div.container ul.videos {
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     section.CAlimentos div.container ul.videos li {
-        margin: 1vw 0; 
-        width: 100%; 
+        margin: 1vw 0;
+        width: 100%;
     }
 
     .f {
-        text-align: center; 
+        text-align: center;
+    }
+
+    section.BAlimentos p.Fonte,
+    section.BAlimentos p.Fonte a {
+        font-size: 0.5rem;
     }
 }
