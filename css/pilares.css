@@ -1,6 +1,5 @@
 /* FORMATAÇÃO */
 body {
-    background-color: rgb(252, 243, 224);
     font-size: 2rem;
 
 }
@@ -77,11 +76,11 @@ section.Principal {
 section.Principal img {
     border-radius: 10px;
     margin-top: 2vw;
-    max-width: 78%;
+    width: 78%;
     display: block;
     margin: 0 auto;
     align-content: center;
-    max-height: 740px;
+    max-height: 780px;
     margin-top: 5vw;
 }
 section.Principal ul li {
@@ -129,6 +128,7 @@ section.alimentacao p span {
     font-weight: bold;
 }
 
+
 /*REFERÊNCIAS*/
 section#referencias h3 {
     font-size: 1.6rem;
@@ -165,8 +165,8 @@ section#d a {
 
 @media (max-width: 780px) {
         section.Principal img {
-        width: 310px;
-        max-height: 200px;
+        max-width: 310px;
+        max-height: 220px;
     }
     section.Principal ul li{
         width: 310px !important;
