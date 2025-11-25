@@ -150,10 +150,12 @@ main h1 {
 @media (max-width: 768px) {
 
     main {
+        margin: 2vw;
         padding: 20px 4vw;
     }
 
     main h1 {
+        padding: 4vw;
         font-size: 1.7rem;
     }
 
