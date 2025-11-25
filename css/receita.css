@@ -65,7 +65,7 @@ main h1 {
     padding: 0;
     margin-top: 15px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 28px;
 }
 
@@ -103,8 +103,8 @@ main h1 {
 }
 
 .lista-receitas h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 500;
     color: #4B3F72;
 }
 
@@ -118,17 +118,20 @@ main h1 {
     padding: 0;
     margin: 20px 0 30px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 por linha no PC */
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 15px;
 }
+
+
 
 .lista-lista li {
     background: #FEE5C1;
     border-left: 6px solid #4B3F72;
-    padding: 10px 15px;
+    padding: 12px 15px;
     border-radius: 10px;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+        word-wrap: break-word;
 }
 .pg4 h2{
     font-size: 2rem;
