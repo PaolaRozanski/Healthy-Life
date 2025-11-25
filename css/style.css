@@ -10,6 +10,13 @@ html {
 
 }
 
+main h2,
+main h3,
+main h4,
+main h5 {
+    font-family: "Platypi", serif !important;
+}
+
 main p {
     line-height: 3rem;
     text-align: justify !important;
@@ -116,7 +123,7 @@ section.titulo {
     align-content: center;
     background-image: url(../scr/fundo\ para\ pc.png);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     background-position: center center;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -165,20 +172,19 @@ iframe {
 
 /*FOOTER*/
 footer {
-    display: flex;
-    flex-wrap: wrap;
+    text-decoration: none;
+    background-color: #8cab55;
+    padding: 1.5rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 2rem;
     justify-content: space-around;
     align-items: center;
-    text-decoration: none !important;
-    background-color: #8cab55 !important;
-    padding: 1.5rem !important;
-    border-top-left-radius: 25px !important;
-    border-top-right-radius: 25px !important;
-    margin-top: 2rem !important;
-    gap: 0.6rem !important;
-    padding: 1.2rem 1.5rem 0.8rem 1.5rem !important;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem 2rem 1rem 2rem;
+    font-size: 1.3rem !important;
     font-family: "Noto Traditional Nushu", sans-serif !important;
-    font-size: 1.3rem;
 }
 
 footer div#b p {
@@ -304,6 +310,9 @@ header ul li:focus-within>a {
 header ul li ul {
     transition-delay: 0.3s;
 }
+h2#tituloCell {
+    display: none;
+}
 
 
 /* ============================================== MEDIA ============================================== */
@@ -322,9 +331,6 @@ body {
 }
 
 @media (max-width: 780px) {
-    section.titulo {
-        display: none;
-    }
 
     header div.abertura {
         display: none;
@@ -365,76 +371,84 @@ body {
         margin: 0vw;
     }
 
-/* menu mobile: oculto por padrão */
-header ul.linksCellphone {
-  position: fixed;
-  top: 0;
-  right: 0;
+    header ul.linksCellphone {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 220px;
 
-  height: 100vh;
-  width: 220px;
+        background: #FFC573;
+        flex-direction: column;
+        align-items: flex-start;
 
-  background: #FFC573;
-  flex-direction: column;
-  align-items: flex-start;
+        padding: 3rem 1.5rem;
+        gap: 1rem;
 
-  padding: 3rem 1.5rem;
-  gap: 1rem;
+        list-style: none;
+        display: flex;
+        opacity: 0;
+        transform: translateX(100%);
+        pointer-events: none;
+        transition: transform 0.35s ease, opacity 0.35s ease;
 
-  list-style: none;
-  display: none;      /* escondido até abrir */
-  z-index: 999999;
-  transform: translateX(100%); /* começa fora da tela */
-  transition: transform 300ms ease, opacity 300ms ease;
-  opacity: 0;
-}
+        z-index: 999999;
+    }
 
-/* quando aberto */
-header ul.linksCellphone.open {
-  display: flex;
-  transform: translateX(0);
-  opacity: 1;
-}
+    header ul.linksCellphone.open {
+        transform: translateX(0);
+        opacity: 1;
+        pointer-events: auto;
+    }
 
-/* itens do menu em coluna */
-header ul.linksCellphone li {
-  width: 100%;
-}
+    header ul.linksCellphone li {
+        width: 100%;
+    }
 
-header ul.linksCellphone li a {
-  display: block;
-  width: 100%;
-  font-size: 1.4rem;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 0.6rem 0;
-}
+    header ul.linksCellphone li a {
+        display: block;
+        width: 100%;
+        font-size: 1.4rem;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 0.6rem 0;
+    }
 
-/* botão fechar (seta) alinhado à borda superior */
-header ul.linksCellphone li.close-btn {
-  align-self: flex-end;
-  margin-bottom: 1.2rem;
-  cursor: pointer;
-}
-header ul.linksCellphone li.close-btn span {
-  font-size: 1.6rem;
-  color: white;
-}
+    /* botão fechar (seta) alinhado à borda superior */
+    header ul.linksCellphone li.close-btn {
+        align-self: flex-end;
+        margin-bottom: 1.2rem;
+        cursor: pointer;
+    }
 
-/* acessibilidade: foco visível */
-.menu-icon:focus, header ul.linksCellphone li.close-btn:focus, header ul.linksCellphone a:focus {
-  outline: 3px solid rgba(255,255,255,0.3);
-  outline-offset: 2px;
-}
+    header ul.linksCellphone li.close-btn span {
+        font-size: 1.6rem;
+        color: white;
+    }
+
+    /* acessibilidade: foco visível */
+    .menu-icon:focus,
+    header ul.linksCellphone li.close-btn:focus,
+    header ul.linksCellphone a:focus {
+        outline: 3px solid rgba(255, 255, 255, 0.3);
+        outline-offset: 2px;
+    }
 
     div.cardbox p {
-        font-size: 1rem;
-
+        display: none;
     }
 
     div.cardbox h3 {
-        font-size: 1.5rem;
+        display: none;
+    }
+
+    .titulo {
+        display: none;
+    }
+
+    div.cardbox h2 {
+        font-size: 1.5rem !important;
     }
 
     footer p,
@@ -473,5 +487,34 @@ header ul.linksCellphone li.close-btn span {
     footer div#b p {
         margin-top: 3vw;
         font-size: 0.9rem;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        text-decoration: none !important;
+        background-color: #8cab55 !important;
+        padding: 1.5rem !important;
+        border-top-left-radius: 25px !important;
+        border-top-right-radius: 25px !important;
+        margin-top: 2rem !important;
+        gap: 0.6rem !important;
+        padding: 1.2rem 1.5rem 0.8rem 1.5rem !important;
+        font-family: "Noto Traditional Nushu", sans-serif !important;
+        font-size: 1.3rem;
+    }
+
+    img {
+        max-width: 78%;
+    }
+
+    h2#tituloCell {
+        font-size: 1.3rem !important;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 6vw;
+        display: block;
     }
 }

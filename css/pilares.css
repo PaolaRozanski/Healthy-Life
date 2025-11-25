@@ -165,8 +165,8 @@ section#d a {
 
 @media (max-width: 780px) {
         section.Principal img {
-        max-width: 310px;
-        max-height: 220px;
+        width: 310px;
+        max-height: 200px;
     }
     section.Principal ul li{
         width: 310px !important;
