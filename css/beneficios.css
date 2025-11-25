@@ -78,7 +78,14 @@ section.beneficios h2{
     font-size: 2rem;
 }
 section.beneficios img{
-    border-radius: 25px;
+    border-radius: 10px;
+    margin-top: 2vw;
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+    align-content: center;
+    max-height: 780px;
+    margin-top: 5vw;
 }
 section.beneficios a{
     margin: 5px 5px 5px 5px;
