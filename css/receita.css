@@ -7,28 +7,49 @@ body {
     padding: 20px;
 }
 
-/* Main padrão */
+        * {
+            padding: 0;
+            margin: 0;
+            border: none;
+            list-style: none;
+            text-decoration: none;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        main section {
+            display: none;
+        }
+
+        main section.pg2 {
+            display: block;
+        }
+
 main {
-    padding: 20px 7vw; 
-    background-color: #fff;
-    border-radius: 20px;
-    text-align: center; 
     width: 100%;
-    max-width: 900px;
+    max-width: 950px;
+    background-color: #ffffff;
+    padding: 30px 7vw;
+    border-radius: 22px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+    text-align: center; 
+    animation: aparecer 0.4s ease;
 }
 
-/* Títulos */
 main h1 {
-    font-size: 2.3rem;
+    font-size: 3rem;
     margin-bottom: 25px;
     font-weight: bold;
     color: #414183;
 }
 
-/* === PÁGINA 2 – escolha de refeição === */
 .pg2 form label {
     display: block;
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin-bottom: 18px;
     cursor: pointer;
 }
@@ -38,52 +59,94 @@ main h1 {
     transform: scale(1.3);
 }
 
-/* === LISTA DE RECEITAS (pg3 e pg4) === */
+
 .lista-receitas {
     list-style: none;
     padding: 0;
+    margin-top: 15px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
 }
 
-/* Cada card */
+
 .lista-receitas li {
     background-color: #FEE5C1;
     border-radius: 18px;
     border: 3px solid #4B3F72;
     padding: 15px;
+    text-align: center;
     transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
 .lista-receitas li:hover {
     background-color: #414183;
     border-color: #414183;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.18);
 }
 
 .lista-receitas li:hover h2 {
-    color: white;
+    color: #FFFFFF;
 }
 
 .lista-receitas img {
     width: 100%;
     border-radius: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    transition: 0.3s;
 }
 
-/* Nome da receita */
+.lista-receitas li:hover img {
+    transform: scale(1.05);
+}
+
 .lista-receitas h2 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #4B3F72;
 }
 
-/* Remove underline dos links */
 .lista-receitas a {
     text-decoration: none;
+    color: inherit;
 }
 
-/* === Responsivo (mobile) === */
+.lista-lista {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 por linha no PC */
+    gap: 15px;
+}
+
+.lista-lista li {
+    background: #FEE5C1;
+    border-left: 6px solid #4B3F72;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.pg4 h2{
+    font-size: 2rem;
+    margin: 2vw;
+}
+
+
+
+@media (max-width: 992px) {
+    .lista-receitas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .lista-lista {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 768px) {
 
     main {
@@ -98,7 +161,17 @@ main h1 {
         grid-template-columns: 1fr;
     }
 
+  
+    .lista-lista {
+        grid-template-columns: 1fr;
+    }
+
     .lista-receitas h2 {
         font-size: 1.2rem;
+    }
+
+    .pg2 form label {
+        font-size: 1.25rem;
+        padding: 12px 15px;
     }
 }
