@@ -73,16 +73,25 @@ font-weight: 600;
 
 
 /* Responsividade */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .titulo{
       display: none;
     }
     .projeto {
-        padding: 0 10px; 
+        padding: 1vw 10vw; 
+        margin: 4vw;
     }
 
     .projeto h3 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .projeto h2{
         font-size: 2rem;
+    }
+    .projeto p {
+        font-size: 1.1rem;
     }
 
     .projeto section.links h3 {
