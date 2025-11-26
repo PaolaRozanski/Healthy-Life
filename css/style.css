@@ -247,7 +247,7 @@ footer div#e nav ul li a {
 
 footer div.f {
     text-align: center;
-    padding-top: 1rem;
+    padding: 1rem 0 1rem 0;
 }
 
 footer div.f a {
