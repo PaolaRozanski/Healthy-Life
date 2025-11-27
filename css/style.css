@@ -187,66 +187,22 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     gap: 1.5rem;
-    padding: 2rem 2rem 1rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
     font-size: 1.3rem !important;
     font-family: "Noto Traditional Nushu", sans-serif !important;
 }
 
-footer div#b p {
-    font-weight: bold;
-    padding: 15px 0 15px 0;
+footer div.footer{
+    max-width: 100vw;
+    margin: 3vw;
+    line-height: 2rem;
+    
 }
 
-footer div#b nav ul {
+footer div.footer div.f{
     display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    list-style: none;
-    padding-left: 0;
-
-}
-
-footer div#c p.l {
-    font-weight: bold;
-    padding: 10px 0 15px 0;
-}
-
-footer div#c nav ul.menu-rodape {
-    display: flex;
-    justify-content: baseline;
-    gap: 1.5rem;
-    list-style: none;
-    padding-left: 0;
-}
-
-footer div#c nav ul.menu-rodape li a {
-    color: black;
-    text-decoration: none;
-}
-
-
-footer div#b nav a {
-    color: black;
-    float: right;
-    font-size: 2rem;
-    padding: 10px;
-    margin: 15px 0 0 0;
-}
-
-footer div#c nav ul li a {
-    color: black;
-}
-
-footer div#d nav ul li a {
-    color: black;
-}
-
-footer div#e nav ul li a {
-    color: black;
-}
-
-footer div.f {
-    text-align: center;
+    justify-content: space-around;
+    align-items: center;
     padding: 1rem 0 1rem 0;
 }
 
@@ -256,7 +212,60 @@ footer div.f a {
     text-decoration: none;
 }
 
+footer div.footer div.f nav.r a {
+    color: black;
+    float: right;
+    font-size: 2rem;
+    padding:  0 0 0 20px;
+}
 
+footer div.footer div.doisLados div.ladoUm div#b p {
+    font-weight: bold;
+    padding: 0;
+}
+
+footer div.footer div.doisLados div.ladoUm div#b nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+    padding-left: 0;
+
+}
+
+footer div.footer div.doisLados div#c p.l {
+    font-weight: bold;
+    padding: 10px 0 15px 0;
+}
+
+footer div.footer div.doisLados div#c nav ul.menu-rodape {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    list-style: none;
+    padding-left: 0;
+}
+
+footer div.footer div.doisLados div#c nav ul.menu-rodape li a {
+    color: black;
+    text-decoration: none;
+}
+
+footer div.footer div.doisLados div#c{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer div.footer div.doisLados div#c nav ul li a {
+    color: black;
+}
+
+footer div.footer div.doisLados {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 /*======================================= SUBMENU =============================================== */
 
@@ -456,6 +465,8 @@ body {
         font-size: 1.5rem !important;
     }
 
+    /* FOOTER CELULAR */
+
     footer p,
     footer a {
         font-size: 1rem;
@@ -466,7 +477,7 @@ body {
         display: none;
     }
 
-    footer div#c p {
+    footer div.footer div.doisLados div#c p {
         display: none;
     }
 
@@ -474,7 +485,7 @@ body {
         text-align: center;
     }
 
-    footer div.f {
+    footer div.footer div.f {
         flex: 0 0 100%;
         order: 999;
         text-align: center !important;
@@ -482,14 +493,14 @@ body {
         padding-top: 0.25rem;
     }
 
-    footer div#b {
+    footer div.footer div.doisLados div.ladoUm div#b {
         align-items: center !important;
         margin-bottom: 0.25rem;
         display: flex;
         justify-content: space-evenly;
     }
 
-    footer div#b p {
+    footer div.footer div.doisLados div.ladoUm div#b p {
         margin-top: 3vw;
         font-size: 0.9rem;
     }
