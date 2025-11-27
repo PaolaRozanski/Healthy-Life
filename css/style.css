@@ -497,7 +497,7 @@ body {
         align-items: center !important;
         margin-bottom: 0.25rem;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     footer div.footer div.doisLados div.ladoUm div#b p {
