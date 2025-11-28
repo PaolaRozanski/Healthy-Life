@@ -105,6 +105,7 @@ main h1 {
     border-radius: 15px;
     margin-bottom: 12px;
     transition: 0.3s;
+    height: 200px;
 }
 
 .lista-receitas li:hover img {
