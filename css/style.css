@@ -203,7 +203,7 @@ footer div.footer{
 
 footer div.footer div.f{
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     align-items: center;
     padding: 1rem 0 1rem 0;
 }
@@ -268,6 +268,21 @@ footer div.footer div.doisLados {
     justify-content: space-around;
     align-items: center;
 }
+footer div.voltarTopo a {
+    font-weight: bolder;
+    color: #FFF7E9;
+    text-decoration: none;
+}
+footer div.voltarTopo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+div.f{
+
+}
+
 
 /*======================================= SUBMENU =============================================== */
 
