@@ -36,6 +36,15 @@ a.questi {
 }
 
 
+.Restricoes p {
+    color: #414183;
+    font-weight: bold;
+    display: flex;
+    justify-content: baseline; 
+    font-size: 1.8rem;
+}
+
+
 .Restricoes ul {
     list-style: none;
     display: grid;

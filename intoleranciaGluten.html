@@ -8,25 +8,29 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/receita.css">
-
+    <script src="https://kit.fontawesome.com/a068b6b303.js" crossorigin="anonymous"></script>
 </head>
-
+       
 <body>
+    
     <header>
+    <button id="voltarBtn" type="button" style="display: none;">
+            <i class="fa-sharp fa-solid fa-arrow-left" style="color: #414183;"></i>
+        </button>
         <h1 id="questiH1">Aqui você encontrará pratos para incluir na sua alimentação para deixa-lá mais saudável</h1>
     </header>
     <main>
 
         <section class="pg2">
-            <h1>Qual refeição você deseja?</h1>
+            <h1>Tem preferência de refeição?</h1>
 
             <form>
                 <label>
-                    <input type="radio" value="1" name="refeicao"> Café da manhã/tarde
+                    <input type="radio" value="1" name="refeicao"> Café da manhã e da tarde
                 </label>
 
                 <label>
-                    <input type="radio" value="2" name="refeicao"> Almoço/Janta
+                    <input type="radio" value="2" name="refeicao"> Almoço e janta
                 </label>
             </form>
         </section>
@@ -238,7 +242,28 @@
             });
         });
     </script>
-
+    <script>
+        const voltarBtn = document.getElementById("voltarBtn");
+        function atualizarBotaoVoltar() {
+            if (pg2.style.display !== "none") {
+                voltarBtn.style.display = "inline-block";
+                voltarBtn.onclick = () => window.location.href = "Restricoes.html";
+            } else {
+                voltarBtn.style.display = "inline-block";
+                voltarBtn.onclick = () => {
+                    pg3.style.display = "none";
+                    pg4.style.display = "none";
+                    pg2.style.display = "block";
+                };
+            }
+        }
+        // Inicializa botão ao carregar
+        atualizarBotaoVoltar();
+        // Atualiza ao trocar de seção
+        document.querySelectorAll("input[name='refeicao']").forEach(radio => {
+            radio.addEventListener("change", atualizarBotaoVoltar);
+        });
+    </script>
 </body>
 
 </html>
