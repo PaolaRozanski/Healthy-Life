@@ -17,7 +17,7 @@
     <main>
 
         <section class="pg2">
-            <h1>Tem preferência de refeição?</h1>
+            <h1>Qual a sua preferência de refeição?</h1>
 
             <form>
                 <label>
@@ -32,7 +32,7 @@
 
 
         <section class="pg3" style="display: none;">
-            <h1>Algumas receitas que você pode adicionar em sua rotina:</h1>
+            <h1>Algumas receitas que você pode adicionar em sua dieta:</h1>
 
             <ul class="lista-receitas">
 
@@ -84,7 +84,7 @@
         </section>
 
         <section class="pg4" style="display: none;">
-            <h1>Vamos aprender a montar um prato saudável?</h1>
+            <h1>Vamos aprender a montar um prato saudável!</h1>
             <h2>Opções de proteínas:</h2>
 
             <ul class="lista-receitas">
@@ -167,7 +167,7 @@
 
                 <li>
                     <a href="https://www.receiteria.com.br/receita/panqueca-de-legumes-simples/">
-                        <img src="scr/PaginaReceita/crepioca-fit.jpg" alt="Crepioca fit">
+                        <img src="scr/panqueca-de-legumes-facil-006-730x548.jpeg" alt="Crepioca fit">
                         <h2>Panqueca de Legumes</h2>
                     </a>
                 </li>
@@ -179,21 +179,10 @@
                     </a>
                 </li>
 
-<<<<<<< HEAD
                <li>
                     <a href="https://pt.petitchef.com/receitas/prato-principal/espaguete-com-abobrinha-vegana-fid-1305144">
                         <img src="scr/espaguete-com-abobrinha-vegana--md-358986p579640.webp" alt="Espaguete de abobrinha">
                         <h2>Espaguete de abobrinha</h2>
-=======
-                <li>
-                    <a
-                        href="https://pt.petitchef.com/receitas/prato-principal/espaguete-com-abobrinha-vegana-fid-1305144">
-                        <img src="scr/PaginaReceita/omelete-de-legumes.jpg" alt="Omelete de legumes">
-                        <h2>ESpaguete de abobrinha</h2>
->>>>>>> 7ba5c83 (header)
-                    </a>
-                </li>
-
                 <li>
                     <a href="https://www.receiteria.com.br/receita/strogonoff-de-berinjela-vegano/">
                         <img src="scr/strogonoff-de-berinjela-vegano-capa.png" alt="Strogonoff de Berinjela">
@@ -202,13 +191,12 @@
                 </li>
 
                 <li>
-                    <a
+                     <a
                         href="https://www.tudogostoso.com.br/receita/172883-bolinho-de-cenoura-com-curry-e-chia-sem-gluten.html">
                         <img src="scr/bolinhocenoura.png" alt="Bolinho de Cenoura">
                         <h2>Bolinho de Cenoura</h2>
                     </a>
                 </li>
-
             </ul>
 
         </section>
@@ -252,9 +240,7 @@
                 };
             }
         }
-        // Inicializa botão ao carregar
         atualizarBotaoVoltar();
-        // Atualiza ao trocar de seção
         document.querySelectorAll("input[name='refeicao']").forEach(radio => {
             radio.addEventListener("change", atualizarBotaoVoltar);
         });
