@@ -167,7 +167,7 @@ section.sabermais p {
     }
 
     section#somos {
-        font-size: 1rem; 
+        
         padding: 1rem; 
     }
 
@@ -181,9 +181,10 @@ section.sabermais p {
         height: 30vw;
     }
 
-    section#somos ul li p {
+    section#somos ul li ul li p {
         padding: 1rem; 
         margin: 1rem 0; 
+        font-size: 1rem; 
     }
 
   
