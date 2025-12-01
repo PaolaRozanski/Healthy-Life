@@ -216,9 +216,7 @@
                 };
             }
         }
-        // Inicializa botão ao carregar
         atualizarBotaoVoltar();
-        // Atualiza ao trocar de seção
         document.querySelectorAll("input[name='refeicao']").forEach(radio => {
             radio.addEventListener("change", atualizarBotaoVoltar);
         });
