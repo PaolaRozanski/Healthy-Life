@@ -118,4 +118,7 @@ font-weight: 600;
         font-size: 1.5rem; 
         padding: 1rem 0;  
     }
+    .projeto {
+        padding: 1vw 9vw;
+    }
 }

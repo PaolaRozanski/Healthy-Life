@@ -193,4 +193,8 @@ section#d a {
         margin-bottom: 1vw;
         font-size: 1.1rem;
     }
+    section.Principal{
+        padding-left: 0;
+        padding-right: 0;
+    } 
 }

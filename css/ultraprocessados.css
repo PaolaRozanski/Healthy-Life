@@ -96,6 +96,9 @@ section.CAlimentos div.container ul.videos li {
         margin: 2vw auto;
         display: block;
     }
+    section.BAlimentos{
+        padding: 0;
+    }
 
     section.BAlimentos p,
     section.CAlimentos p,

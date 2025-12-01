@@ -126,4 +126,7 @@ html {
     section.beneficios ul li{
         margin: 5vw 0 5vw 0;
     }
+    section.beneficios{
+        padding: 0 6vw;
+    }
 }
